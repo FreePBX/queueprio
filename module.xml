@@ -1,0 +1,21 @@
+<module>
+	<rawname>queueprio</rawname>
+	<name>Queue Priorities</name>
+	<version>2.5.0</version>
+	<type>setup</type>
+	<category>Inbound Call Control</category>
+	<description>
+		Adds the ability to set a callers priority higher before entering a queue
+	</description>
+	<menuitems>
+		<queueprio>Queue Priorities</queueprio>
+	</menuitems>
+	<changelog>
+		*2.5.0* First release of module
+	</changelog>
+	<depends>
+		<version>2.4.0</version>
+	</depends>
+	<location>release/2.4/queueprio-2.4.0.0.tgz</location>
+	<md5sum>c0fa54b914c09c0832a7a1fc1006ed84</md5sum>
+</module>
