@@ -87,12 +87,12 @@ echo $helptext;
 	<tr><td colspan="2"><h5><?php  echo ($extdisplay ? _("Edit Queue Priority Instance") : _("Add Queue Priority Instance")) ?><hr></h5></td></tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Description")?>:<span><?php echo _("The descriptive name of this Queue Priority instance.")?></span></a></td>
-		<td><input size="30" type="text" name="description" value="<?php  echo $description; ?>"></td>
+		<td><input size="30" type="text" name="description" value="<?php  echo $description; ?>" tabindex="<?php echo ++$tabindex;?>"></td>
 	</tr>
 	<tr>
 		<td><a href="#" class="info"><?php echo _("Priority")?>:<span><?php echo _("The Queue Priority to set")?></span></a></td>
 		<td>
-			<select name="queue_priority">
+			<select name="queue_priority" tabindex="<?php echo ++$tabindex;?>">
 			<?php 
 				$default = (isset($queue_priority) ? $queue_priority : 0);
 				for ($i=0; $i <= 20; $i++) {
@@ -109,7 +109,7 @@ echo drawselects($dest,0);
 ?>
 			
 	<tr>
-		<td colspan="2"><br><input name="Submit" type="submit" value="<?php echo _("Submit Changes")?>">
+		<td colspan="2"><br><input name="Submit" type="submit" value="<?php echo _("Submit Changes")?>" tabindex="<?php echo ++$tabindex;?>">
 			<?php if ($extdisplay) { echo '&nbsp;<input name="delete" type="submit" value="'._("Delete").'">'; } ?>
 		</td>		
 
