@@ -1,6 +1,13 @@
 <?php
 
 function queueprio_destinations() {
+	global $module_page;
+
+	// it makes no sense to point at another queueprio (and it can be an infinite loop)
+	if ($module_page == 'queueprio') {
+		return false;
+	}
+
 	// return an associative array with destination and description
 	foreach (queueprio_list() as $row) {
 		$extens[] = array('destination' => 'app-queueprio,' . $row['queueprio_id'] . ',1', 'description' => $row['description']);
