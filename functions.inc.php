@@ -67,7 +67,7 @@ function queueprio_list() {
 
 function queueprio_get($queueprio_id) {
 	global $db;
-	$sql = "SELECT queueprio_id, description, queue_priority, dest FROM queueprio WHERE queueprio_id = ".addslashes($queueprio_id);
+	$sql = "SELECT queueprio_id, description, queue_priority, dest FROM queueprio WHERE queueprio_id = ".$db->escapeSimple($queueprio_id);
 	$row = $db->getRow($sql, DB_FETCHMODE_ASSOC);
 	if(DB::IsError($row)) {
 		die_freepbx($row->getMessage()."<br><br>Error selecting row from queueprio");	
@@ -79,9 +79,9 @@ function queueprio_get($queueprio_id) {
 function queueprio_add($description, $queue_priority, $dest) {
 	global $db;
 	$sql = "INSERT INTO queueprio (description, queue_priority, dest) VALUES (".
-		"'".addslashes($description)."', ".
-		"'".addslashes($queue_priority)."', ".
-		"'".addslashes($dest)."')";
+		"'".$db->escapeSimple($description)."', ".
+		"'".$db->escapeSimple($queue_priority)."', ".
+		"'".$db->escapeSimple($dest)."')";
 	$result = $db->query($sql);
 	if(DB::IsError($result)) {
 		die_freepbx($result->getMessage().$sql);
@@ -90,7 +90,7 @@ function queueprio_add($description, $queue_priority, $dest) {
 
 function queueprio_delete($queueprio_id) {
 	global $db;
-	$sql = "DELETE FROM queueprio WHERE queueprio_id = ".addslashes($queueprio_id);
+	$sql = "DELETE FROM queueprio WHERE queueprio_id = ".$db->escapeSimple($queueprio_id);
 	$result = $db->query($sql);
 	if(DB::IsError($result)) {
 		die_freepbx($result->getMessage().$sql);
@@ -100,10 +100,10 @@ function queueprio_delete($queueprio_id) {
 function queueprio_edit($queueprio_id, $description, $queue_priority, $dest) { 
 	global $db;
 	$sql = "UPDATE queueprio SET ".
-		"description = '".addslashes($description)."', ".
-		"queue_priority = '".addslashes($queue_priority)."', ".
-		"dest = '".addslashes($dest)."' ".
-		"WHERE queueprio_id = ".addslashes($queueprio_id);
+		"description = '".$db->escapeSimple($description)."', ".
+		"queue_priority = '".$db->escapeSimple($queue_priority)."', ".
+		"dest = '".$db->escapeSimple($dest)."' ".
+		"WHERE queueprio_id = ".$db->escapeSimple($queueprio_id);
 	$result = $db->query($sql);
 	if(DB::IsError($result)) {
 		die_freepbx($result->getMessage().$sql);
