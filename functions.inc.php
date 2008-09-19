@@ -2,6 +2,7 @@
 
 function queueprio_destinations() {
 	global $module_page;
+	$extens = array();
 
 	// it makes no sense to point at another queueprio (and it can be an infinite loop)
 	if ($module_page == 'queueprio') {
