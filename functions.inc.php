@@ -31,7 +31,7 @@ function queueprio_getdestinfo($dest) {
 			return array();
 		} else {
 			$type = isset($active_modules['queueprio']['type'])?$active_modules['queueprio']['type']:'setup';
-			return array('description' => 'Queue Priority: '.$thisexten['description'],
+			return array('description' => sprintf(_("Queue Priority: %s"),$thisexten['description']),
 			             'edit_url' => 'config.php?display=queueprio&type='.$type.'&extdisplay='.urlencode($exten),
 								  );
 		}
@@ -131,7 +131,7 @@ function queueprio_check_destinations($dest=true) {
 		$thisid   = $result['queueprio_id'];
 		$destlist[] = array(
 			'dest' => $thisdest,
-			'description' => 'Language Change: '.$result['description'],
+			'description' => sprintf(_("Queue Priority: %s"),$result['description']),
 			'edit_url' => 'config.php?display=queueprio&type='.$type.'&extdisplay='.urlencode($thisid),
 		);
 	}
