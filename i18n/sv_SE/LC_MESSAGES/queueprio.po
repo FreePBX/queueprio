@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX queueprio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-26 19:44+0200\n"
-"PO-Revision-Date: 2008-09-26 20:40+0100\n"
+"POT-Creation-Date: 2008-10-06 00:00+0200\n"
+"PO-Revision-Date: 2008-10-11 18:32+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDED\n"
+
+#: functions.inc.php:34
+#: functions.inc.php:134
+#, php-format
+msgid "Queue Priority: %s"
+msgstr "Köprioritet: %s"
 
 #: page.queueprio.php:52
 #: page.queueprio.php:75
