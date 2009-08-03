@@ -1,7 +1,9 @@
 <module>
 	<rawname>queueprio</rawname>
 	<name>Queue Priorities</name>
-	<version>2.5.0.4</version>
+	<version>2.6.0.0</version>
+	<publisher>FreePBX</publisher>
+	<license>GPLv2+</license>
 	<type>setup</type>
 	<category>Inbound Call Control</category>
 	<description>
@@ -11,6 +13,7 @@
 		<queueprio>Queue Priorities</queueprio>
 	</menuitems>
 	<changelog>
+		*2.6.0.0* misc
 		*2.5.0.4* #3246, #3254
 		*2.5.0.3* #3214
 		*2.5.0.2* #3110, #3138 Sqlite3 fixes
