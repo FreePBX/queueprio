@@ -44,7 +44,6 @@ function queueprio_get_config($engine) {
 	global $ext;
 	switch ($engine) {
 		case 'asterisk':
-			$ext->addInclude('from-internal-additional', 'app-queueprio');
 			foreach (queueprio_list() as $row) {
 					$ext->add('app-queueprio',$row['queueprio_id'], '', new ext_noop('Changing Channel to queueprio: '.$row['queue_priority'].' ('.$row['description'].')'));
 					$ext->add('app-queueprio',$row['queueprio_id'], '', new ext_setvar('_QUEUE_PRIO',$row['queue_priority']));

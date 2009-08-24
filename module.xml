@@ -1,7 +1,7 @@
 <module>
 	<rawname>queueprio</rawname>
 	<name>Queue Priorities</name>
-	<version>2.6.0.0</version>
+	<version>2.6.0.1</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<type>setup</type>
@@ -13,6 +13,7 @@
 		<queueprio>Queue Priorities</queueprio>
 	</menuitems>
 	<changelog>
+		*2.6.0.1* #3654
 		*2.6.0.0* misc
 		*2.5.0.4* #3246, #3254
 		*2.5.0.3* #3214
