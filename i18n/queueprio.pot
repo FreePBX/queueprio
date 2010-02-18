@@ -1,14 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is part of FreePBX.
 #
-#, fuzzy
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for queueprio
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-10-06 00:00+0200\n"
+"POT-Creation-Date: 2010-02-18 22:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +28,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: functions.inc.php:34 functions.inc.php:134
+#: queueprio/functions.inc.php:34 queueprio/functions.inc.php:133
 #, php-format
 msgid "Queue Priority: %s"
 msgstr ""
 
-#: page.queueprio.php:52 page.queueprio.php:75
+#: queueprio/page.queueprio.php:52 queueprio/page.queueprio.php:75
 msgid "Add Queue Priority"
 msgstr ""
 
-#: page.queueprio.php:73
+#: queueprio/page.queueprio.php:73
 msgid "Edit: "
 msgstr ""
 
-#: page.queueprio.php:78
+#: queueprio/page.queueprio.php:78
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -41,46 +53,55 @@ msgid ""
 "with this priority"
 msgstr ""
 
-#: page.queueprio.php:87
+#: queueprio/page.queueprio.php:87
 msgid "Edit Queue Priority Instance"
 msgstr ""
 
-#: page.queueprio.php:87
+#: queueprio/page.queueprio.php:87
 msgid "Add Queue Priority Instance"
 msgstr ""
 
-#: page.queueprio.php:89
+#: queueprio/page.queueprio.php:89
 msgid "Description"
 msgstr ""
 
-#: page.queueprio.php:89
+#: queueprio/page.queueprio.php:89
 msgid "The descriptive name of this Queue Priority instance."
 msgstr ""
 
-#: page.queueprio.php:93
+#: queueprio/page.queueprio.php:93
 msgid "Priority"
 msgstr ""
 
-#: page.queueprio.php:93
+#: queueprio/page.queueprio.php:93
 msgid "The Queue Priority to set"
 msgstr ""
 
-#: page.queueprio.php:104
+#: queueprio/page.queueprio.php:104
 msgid "Destination"
 msgstr ""
 
-#: page.queueprio.php:112
+#: queueprio/page.queueprio.php:112
 msgid "Submit Changes"
 msgstr ""
 
-#: page.queueprio.php:113
+#: queueprio/page.queueprio.php:113
 msgid "Delete"
 msgstr ""
 
-#: page.queueprio.php:136
+#: queueprio/page.queueprio.php:136
 msgid "Invalid description specified"
 msgstr ""
 
-#: module.xml
+#: queueprio/queueprio.i18n.php:5 queueprio/queueprio.i18n.php:11
 msgid "Queue Priorities"
+msgstr ""
+
+#: queueprio/queueprio.i18n.php:7
+msgid "Inbound Call Control"
+msgstr ""
+
+#: queueprio/queueprio.i18n.php:9
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
 msgstr ""
