@@ -28,6 +28,6 @@
 	<depends>
 		<version>2.5.0alpha1</version>
 	</depends>
-	<location>release/2.8/queueprio-2.8.0.0.tgz</location>
-	<md5sum>95ed9a3628ac612e25c805bde5baddd3</md5sum>
+	<location>release/2.9/queueprio-2.9.0.0.tgz</location>
+	<md5sum>c234363aae677af7081ab5f8f7642f03</md5sum>
 </module>
