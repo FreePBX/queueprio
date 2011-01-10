@@ -136,4 +136,8 @@ function queueprio_check_destinations($dest=true) {
 	}
 	return $destlist;
 }
+function queueprio_change_destination($old_dest, $new_dest) {
+	$sql = 'UPDATE queueprio SET dest = "' . $new_dest . '" WHERE dest = "' . $old_dest . '"';
+	sql($sql, "query");
+}
 ?>
