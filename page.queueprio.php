@@ -44,8 +44,6 @@ switch ($action) {
 }
 
 ?> 
-</div>
-
 <div class="rnav"><ul>
 <?php 
 
@@ -57,8 +55,6 @@ foreach (queueprio_list() as $row) {
 
 ?>
 </ul></div>
-
-<div class="content">
 
 <?php
 
