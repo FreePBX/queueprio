@@ -2,7 +2,7 @@
 	<rawname>queueprio</rawname>
 	<repo>extended</repo>
 	<name>Queue Priorities</name>
-	<version>2.9.0.1</version>
+	<version>2.10.0.0</version>
 	<publisher>FreePBX</publisher>
 	<license>GPLv2+</license>
 	<category>Applications</category>
@@ -13,12 +13,13 @@
 		<queueprio>Queue Priorities</queueprio>
 	</menuitems>
 	<changelog>
+		*2.10.0.0* new version changes
 		*2.9.0.1* set repository
 		*2.9.0.0* #4655
 	</changelog>
 	<depends>
 		<version>2.5.0alpha1</version>
 	</depends>
-	<location>release/2.9/queueprio-2.9.0.1.tgz</location>
-	<md5sum>98a6006874dd08ee737e7e997f449c17</md5sum>
+	<location>release/2.10/queueprio-2.10.0.0.tgz</location>
+	<md5sum>25cd8dadebbb08ea22cc90eab2ba08b9</md5sum>
 </module>
