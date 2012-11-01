@@ -28,9 +28,9 @@ if (isset($_REQUEST['goto0']) && $_REQUEST['goto0']) {
 
 switch ($action) {
 	case 'add':
-		queueprio_add($description, $queue_priority, $dest);
+		$_REQUEST['extdisplay'] = queueprio_add($description, $queue_priority, $dest);
 		needreload();
-		redirect_standard();
+		redirect_standard('extdisplay');
 	break;
 	case 'edit':
 		queueprio_edit($queueprio_id, $description, $queue_priority, $dest);

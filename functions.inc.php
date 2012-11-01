@@ -78,7 +78,7 @@ function queueprio_get($queueprio_id) {
 }
 
 function queueprio_add($description, $queue_priority, $dest) {
-	global $db;
+	global $db, $amp_conf;
 	$sql = "INSERT INTO queueprio (description, queue_priority, dest) VALUES (".
 		"'".$db->escapeSimple($description)."', ".
 		"'".$db->escapeSimple($queue_priority)."', ".
@@ -87,6 +87,8 @@ function queueprio_add($description, $queue_priority, $dest) {
 	if(DB::IsError($result)) {
 		die_freepbx($result->getMessage().$sql);
 	}
+  $id = $amp_conf["AMPDBENGINE"] == "sqlite3" ? sqlite_last_insert_rowid($db->connection) : mysql_insert_id($db->connection);
+	return($id);
 }
 
 function queueprio_delete($queueprio_id) {
