@@ -22,4 +22,4 @@
 	</depends>
 	<location>release/2.10/queueprio-2.10.0.0.tgz</location>
 	<md5sum>25cd8dadebbb08ea22cc90eab2ba08b9</md5sum>
-</module>
+<supported><version>2.10</version></supported></module>
