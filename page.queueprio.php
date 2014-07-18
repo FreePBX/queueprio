@@ -1,4 +1,4 @@
-<?php 
+<?php
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 /** Language Module for FreePBX 2.4
  * Copyright 2006 Philippe Lindheimer - Astrogen LLC
@@ -6,7 +6,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 2
  * of the License, or (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -15,7 +15,7 @@ if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
 
 $type = isset($_REQUEST['type']) ? $_REQUEST['type'] : 'setup';
 $action = isset($_REQUEST['action']) ? $_REQUEST['action'] :  '';
-if (isset($_REQUEST['delete'])) $action = 'delete'; 
+if (isset($_REQUEST['delete'])) $action = 'delete';
 
 $queueprio_id = isset($_REQUEST['queueprio_id']) ? $_REQUEST['queueprio_id'] :  false;
 $description = isset($_REQUEST['description']) ? $_REQUEST['description'] :  '';
@@ -44,9 +44,9 @@ switch ($action) {
 	break;
 }
 
-?> 
+?>
 <div class="rnav"><ul>
-<?php 
+<?php
 
 echo '<li><a href="config.php?display=queueprio&amp;type='.$type.'">'._('Add Queue Priority').'</a></li>';
 
@@ -62,7 +62,7 @@ foreach (queueprio_list() as $row) {
 if ($extdisplay) {
 	// load
 	$row = queueprio_get($extdisplay);
-	
+
 	$description = $row['description'];
 	$queue_priority   = $row['queue_priority'];
 	$dest        = $row['dest'];
@@ -76,7 +76,7 @@ $helptext = _("Queue Priority allows you to set a caller's priority in a queue. 
 echo $helptext;
 ?>
 
-<form name="editQueuePriority" action="<?php  $_SERVER['PHP_SELF'] ?>" method="post" onsubmit="return checkQueuePriority(editQueuePriority);">
+<form name="editQueuePriority" action="" method="post" onsubmit="return checkQueuePriority(editQueuePriority);">
 	<input type="hidden" name="extdisplay" value="<?php echo $extdisplay; ?>">
 	<input type="hidden" name="queueprio_id" value="<?php echo $extdisplay; ?>">
 	<input type="hidden" name="action" value="<?php echo ($extdisplay ? 'edit' : 'add'); ?>">
@@ -90,25 +90,25 @@ echo $helptext;
 		<td><a href="#" class="info"><?php echo _("Priority")?>:<span><?php echo _("The Queue Priority to set")?></span></a></td>
 		<td>
 			<select name="queue_priority" tabindex="<?php echo ++$tabindex;?>">
-			<?php 
+			<?php
 				$default = (isset($queue_priority) ? $queue_priority : 0);
 				for ($i=0; $i <= 20; $i++) {
 					echo '<option value="'.$i.'" '.($i == $default ? 'SELECTED' : '').'>'.$i.'</option>';
 				}
-			?>		
-			</select>		
+			?>
+			</select>
 		</td>
 	<tr><td colspan="2"><br><h5><?php echo _("Destination")?>:<hr></h5></td></tr>
 
-<?php 
+<?php
 //draw goto selects
 echo drawselects($dest,0);
 ?>
-			
+
 	<tr>
 		<td colspan="2"><br><input name="Submit" type="submit" value="<?php echo _("Submit Changes")?>" tabindex="<?php echo ++$tabindex;?>">
 			<?php if ($extdisplay) { echo '&nbsp;<input name="delete" type="submit" value="'._("Delete").'">'; } ?>
-		</td>		
+		</td>
 
 		<?php
 		if ($extdisplay) {
@@ -136,7 +136,7 @@ function checkQueuePriority(theForm) {
 	setDestinations(theForm, '_post_dest');
 
 	// form validation
-	defaultEmptyOK = false;	
+	defaultEmptyOK = false;
 	if (isEmpty(theForm.description.value))
 		return warnInvalid(theForm.description, msgInvalidDescription);
 
