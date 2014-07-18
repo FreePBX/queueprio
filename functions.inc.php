@@ -1,6 +1,9 @@
 <?php
 if (!defined('FREEPBX_IS_AUTH')) { die('No direct script access allowed'); }
-
+//	License for all code of this FreePBX module can be found in the license file inside the module directory
+//	Copyright 2013 Schmooze Com Inc.
+//  Copyright 2006 Philippe Lindheimer
+//
 function queueprio_destinations() {
 	global $module_page;
 	$extens = array();
@@ -87,7 +90,11 @@ function queueprio_add($description, $queue_priority, $dest) {
 	if(DB::IsError($result)) {
 		die_freepbx($result->getMessage().$sql);
 	}
-  $id = $amp_conf["AMPDBENGINE"] == "sqlite3" ? sqlite_last_insert_rowid($db->connection) : mysql_insert_id($db->connection);
+	if(method_exists($db,'insert_id')) {
+		$id = $db->insert_id();
+	} else {
+		$id = $amp_conf["AMPDBENGINE"] == "sqlite3" ? sqlite_last_insert_rowid($db->connection) : mysql_insert_id($db->connection);
+	}
 	return($id);
 }
 
