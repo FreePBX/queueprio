@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:05-0500\n"
+"POT-Creation-Date: 2015-02-20 19:52-0500\n"
 "PO-Revision-Date: 2008-09-27 16:38+0100\n"
 "Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
 "Language-Team: Russian <faq@postmet.com>\n"
@@ -16,44 +16,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:39
-#: /usr/src/freepbx/queueprio/page.queueprio.php:60
+#: page.queueprio.php:39 page.queueprio.php:60
 msgid "Add Queue Priority"
 msgstr "Добавить приоритет в очереди"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:72
+#: page.queueprio.php:72
 msgid "Add Queue Priority Instance"
 msgstr "Добавить шаблон приоритета в очереди"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:98
+#: queueprio.i18n.php:5
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+"Добавляет возможность повысить приоритет позвонившему перед помещением в "
+"очередь"
+
+#: queueprio.i18n.php:4
+msgid "Applications"
+msgstr "Приложения"
+
+#: page.queueprio.php:98
 msgid "Delete"
 msgstr "Удалить"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:74
+#: page.queueprio.php:74
 msgid "Description"
 msgstr "Описание"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:89
+#: page.queueprio.php:89
 msgid "Destination"
 msgstr "Назначение"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:72
+#: page.queueprio.php:72
 msgid "Edit Queue Priority Instance"
 msgstr "Редактировать шаблон приоритет в очереди"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:58
+#: page.queueprio.php:58
 msgid "Edit: "
 msgstr "Редактировать:"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:121
+#: page.queueprio.php:121
 msgid "Invalid description specified"
 msgstr "Использовано неправильное описание"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:78
+#: page.queueprio.php:78
 msgid "Priority"
 msgstr "Приоритет"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:63
+#: queueprio.i18n.php:3 queueprio.i18n.php:6
+msgid "Queue Priorities"
+msgstr "Приоритеты в очередях"
+
+#: page.queueprio.php:63
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -74,35 +88,22 @@ msgstr ""
 "меню, которое используется другимим DID, и в результате он попадёт в очередь "
 "с заданным приоритетом."
 
-#: /usr/src/freepbx/queueprio/functions.inc.php:38
-#: /usr/src/freepbx/queueprio/functions.inc.php:143
+#: functions.inc.php:38 functions.inc.php:143
 #, php-format
 msgid "Queue Priority: %s"
 msgstr "Приоритет очереди %s"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:97
+#: page.queueprio.php:97
 msgid "Submit Changes"
 msgstr "Применить изменения"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:78
+#: page.queueprio.php:78
 msgid "The Queue Priority to set"
 msgstr "Приоритет в очереди установлен"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:74
+#: page.queueprio.php:74
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Узнаваемое имя для шаблона приоритета в очереди"
-
-#~ msgid "Queue Priorities"
-#~ msgstr "Приоритеты в очередях"
-
-#~ msgid "Applications"
-#~ msgstr "Приложения"
-
-#~ msgid ""
-#~ "Adds the ability to set a callers priority higher before entering a queue"
-#~ msgstr ""
-#~ "Добавляет возможность повысить приоритет позвонившему перед помещением в "
-#~ "очередь"
 
 #~ msgid "Misc Destinations"
 #~ msgstr "Различные направления"

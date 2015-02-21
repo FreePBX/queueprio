@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX v2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 18:05-0500\n"
+"POT-Creation-Date: 2015-02-20 19:52-0500\n"
 "PO-Revision-Date: 2014-07-22 12:57+0200\n"
 "Last-Translator: Chavdar <chavdar_75@yahoo.com>\n"
 "Language-Team: Bulgarian <http://git.freepbx.org/projects/freepbx/queueprio/"
@@ -22,44 +22,58 @@ msgstr ""
 "X-Poedit-Country: BULGARIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:39
-#: /usr/src/freepbx/queueprio/page.queueprio.php:60
+#: page.queueprio.php:39 page.queueprio.php:60
 msgid "Add Queue Priority"
 msgstr "Добави Приоритет на Опашка"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:72
+#: page.queueprio.php:72
 msgid "Add Queue Priority Instance"
 msgstr "Добави Въвеждане на Приоритет на Опашка"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:98
+#: queueprio.i18n.php:5
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+"Добавя възможност за установяване на по-висок приоритет на обаждащия се "
+"преди да влезе в опашката"
+
+#: queueprio.i18n.php:4
+msgid "Applications"
+msgstr "Приложения"
+
+#: page.queueprio.php:98
 msgid "Delete"
 msgstr "Изтрий"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:74
+#: page.queueprio.php:74
 msgid "Description"
 msgstr "Описание"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:89
+#: page.queueprio.php:89
 msgid "Destination"
 msgstr "Направление"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:72
+#: page.queueprio.php:72
 msgid "Edit Queue Priority Instance"
 msgstr "Редактирай Въвеждането на Приоритет на Опашка"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:58
+#: page.queueprio.php:58
 msgid "Edit: "
 msgstr "Редактирай:"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:121
+#: page.queueprio.php:121
 msgid "Invalid description specified"
 msgstr "Неправилно въведено описание"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:78
+#: page.queueprio.php:78
 msgid "Priority"
 msgstr "Приоритет"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:63
+#: queueprio.i18n.php:3 queueprio.i18n.php:6
+msgid "Queue Priorities"
+msgstr "Приоритети на Опашки"
+
+#: page.queueprio.php:63
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -80,32 +94,19 @@ msgstr ""
 "от друг DID, и всяка следваща опашка която е въведена ще използва този "
 "приоритет"
 
-#: /usr/src/freepbx/queueprio/functions.inc.php:38
-#: /usr/src/freepbx/queueprio/functions.inc.php:143
+#: functions.inc.php:38 functions.inc.php:143
 #, php-format
 msgid "Queue Priority: %s"
 msgstr "Приоритет на Опашкa: %s"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:97
+#: page.queueprio.php:97
 msgid "Submit Changes"
 msgstr "Приеми Промените"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:78
+#: page.queueprio.php:78
 msgid "The Queue Priority to set"
 msgstr "Приоритет на Опашка който да се установи"
 
-#: /usr/src/freepbx/queueprio/page.queueprio.php:74
+#: page.queueprio.php:74
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Описващо име за това въвеждане на Приоритет на Опашка."
-
-#~ msgid "Queue Priorities"
-#~ msgstr "Приоритети на Опашки"
-
-#~ msgid "Applications"
-#~ msgstr "Приложения"
-
-#~ msgid ""
-#~ "Adds the ability to set a callers priority higher before entering a queue"
-#~ msgstr ""
-#~ "Добавя възможност за установяване на по-висок приоритет на обаждащия се "
-#~ "преди да влезе в опашката"
