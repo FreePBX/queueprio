@@ -9,70 +9,59 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:52-0500\n"
+"POT-Creation-Date: 2015-06-01 18:15-0400\n"
 "PO-Revision-Date: 2015-03-27 12:02+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
-"Language-Team: Spanish "
-"<http://weblate.freepbx.org/projects/freepbx/queueprio/es_ES/>\n"
-"Language: es_ES\n"
+"Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
+"queueprio/es_ES/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: page.queueprio.php:39 page.queueprio.php:60
+#: views/grid.php:11
+msgid "Actions"
+msgstr ""
+
+#: views/bootnav.php:7 views/grid.php:5
+msgid "Add Priority"
+msgstr ""
+
+#: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "Agregar Priorida Cola"
 
-#: page.queueprio.php:72
-msgid "Add Queue Priority Instance"
-msgstr "Agregar Instancia Prioridad Cola"
-
-#: queueprio.i18n.php:5
-msgid ""
-"Adds the ability to set a callers priority higher before entering a queue"
-msgstr ""
-"Añade la posibilidad de establecer una prioridad a los llamantes antes de "
-"entrar en una cola"
-
-#: queueprio.i18n.php:4
-msgid "Applications"
-msgstr "Aplicaciones"
-
-#: page.queueprio.php:98
+#: Queueprio.class.php:52
 msgid "Delete"
 msgstr "Eliminar"
 
-#: page.queueprio.php:74
+#: views/form.php:44
 msgid "Description"
 msgstr "Descripción"
 
-#: page.queueprio.php:89
+#: views/form.php:92 views/form.php:104
 msgid "Destination"
 msgstr "Destino"
 
-#: page.queueprio.php:72
-msgid "Edit Queue Priority Instance"
-msgstr "Editar Instancia Prioridad Cola"
-
-#: page.queueprio.php:58
+#: views/form.php:18
 msgid "Edit: "
 msgstr "Editar: "
 
-#: page.queueprio.php:121
+#: views/form.php:114
 msgid "Invalid description specified"
 msgstr "Descripción especificada inválida"
 
-#: page.queueprio.php:78
+#: views/bootnav.php:5
+msgid "List Priorities"
+msgstr ""
+
+#: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "Prioridad"
 
-#: queueprio.i18n.php:3 queueprio.i18n.php:6
-msgid "Queue Priorities"
-msgstr "Prioridades Cola"
-
-#: page.queueprio.php:63
+#: page.queueprio.php:4
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -98,14 +87,46 @@ msgstr ""
 msgid "Queue Priority: %s"
 msgstr "Prioridad Cola: %s"
 
-#: page.queueprio.php:97
-msgid "Submit Changes"
-msgstr "Aplicar Cambios"
+#: page.queueprio.php:18
+msgid "Queue Priorties"
+msgstr ""
 
-#: page.queueprio.php:78
-msgid "The Queue Priority to set"
-msgstr "Prioridad de Cola a establecer"
+#: Queueprio.class.php:57
+msgid "Reset"
+msgstr ""
 
-#: page.queueprio.php:74
+#: Queueprio.class.php:62
+msgid "Submit"
+msgstr ""
+
+#: views/form.php:80
+msgid "The Queue Priority to set 0 - 20"
+msgstr ""
+
+#: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Un nombre descriptivo para esta Instancia Prioridad Cola."
+
+#~ msgid "Add Queue Priority Instance"
+#~ msgstr "Agregar Instancia Prioridad Cola"
+
+#~ msgid ""
+#~ "Adds the ability to set a callers priority higher before entering a queue"
+#~ msgstr ""
+#~ "Añade la posibilidad de establecer una prioridad a los llamantes antes de "
+#~ "entrar en una cola"
+
+#~ msgid "Applications"
+#~ msgstr "Aplicaciones"
+
+#~ msgid "Edit Queue Priority Instance"
+#~ msgstr "Editar Instancia Prioridad Cola"
+
+#~ msgid "Queue Priorities"
+#~ msgstr "Prioridades Cola"
+
+#~ msgid "Submit Changes"
+#~ msgstr "Aplicar Cambios"
+
+#~ msgid "The Queue Priority to set"
+#~ msgstr "Prioridad de Cola a establecer"

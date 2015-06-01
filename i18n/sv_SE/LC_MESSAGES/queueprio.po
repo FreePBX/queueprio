@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX queueprio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-20 19:52-0500\n"
+"POT-Creation-Date: 2015-06-01 18:15-0400\n"
 "PO-Revision-Date: 2011-03-20 00:00+0100\n"
 "Last-Translator: Mikael Carlsson <mickecamino@gmail.com>\n"
 "Language-Team: \n"
@@ -30,58 +30,47 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDED\n"
 
-#: page.queueprio.php:39 page.queueprio.php:60
+#: views/grid.php:11
+msgid "Actions"
+msgstr ""
+
+#: views/bootnav.php:7 views/grid.php:5
+msgid "Add Priority"
+msgstr ""
+
+#: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "Lägg till köprioritet"
 
-#: page.queueprio.php:72
-msgid "Add Queue Priority Instance"
-msgstr "Lägg till köprioritet"
-
-#: queueprio.i18n.php:5
-msgid ""
-"Adds the ability to set a callers priority higher before entering a queue"
-msgstr ""
-"Lägger till möjlighet att sätta högre prioritet för inkommande samtal innan "
-"det skickas till en kö"
-
-#: queueprio.i18n.php:4
-msgid "Applications"
-msgstr ""
-
-#: page.queueprio.php:98
+#: Queueprio.class.php:52
 msgid "Delete"
 msgstr "Ta bort"
 
-#: page.queueprio.php:74
+#: views/form.php:44
 msgid "Description"
 msgstr "Beskrivning"
 
-#: page.queueprio.php:89
+#: views/form.php:92 views/form.php:104
 msgid "Destination"
 msgstr "Destination"
 
-#: page.queueprio.php:72
-msgid "Edit Queue Priority Instance"
-msgstr "Redigera köprioritet"
-
-#: page.queueprio.php:58
+#: views/form.php:18
 msgid "Edit: "
 msgstr "Redigera:"
 
-#: page.queueprio.php:121
+#: views/form.php:114
 msgid "Invalid description specified"
 msgstr "Ogiltig beskrivning"
 
-#: page.queueprio.php:78
+#: views/bootnav.php:5
+msgid "List Priorities"
+msgstr ""
+
+#: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "Prioritet"
 
-#: queueprio.i18n.php:3 queueprio.i18n.php:6
-msgid "Queue Priorities"
-msgstr "Köprioriteter"
-
-#: page.queueprio.php:63
+#: page.queueprio.php:4
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -107,17 +96,46 @@ msgstr ""
 msgid "Queue Priority: %s"
 msgstr "Köprioritet: %s"
 
-#: page.queueprio.php:97
-msgid "Submit Changes"
-msgstr "Spara ändringar"
+#: page.queueprio.php:18
+msgid "Queue Priorties"
+msgstr ""
 
-#: page.queueprio.php:78
-msgid "The Queue Priority to set"
-msgstr "Välj vilken köprioritet som ska användas"
+#: Queueprio.class.php:57
+msgid "Reset"
+msgstr ""
 
-#: page.queueprio.php:74
+#: Queueprio.class.php:62
+msgid "Submit"
+msgstr ""
+
+#: views/form.php:80
+msgid "The Queue Priority to set 0 - 20"
+msgstr ""
+
+#: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Skriv in en kortfattad beskrivning för denna köprioritet."
+
+#~ msgid "Add Queue Priority Instance"
+#~ msgstr "Lägg till köprioritet"
+
+#~ msgid ""
+#~ "Adds the ability to set a callers priority higher before entering a queue"
+#~ msgstr ""
+#~ "Lägger till möjlighet att sätta högre prioritet för inkommande samtal "
+#~ "innan det skickas till en kö"
+
+#~ msgid "Edit Queue Priority Instance"
+#~ msgstr "Redigera köprioritet"
+
+#~ msgid "Queue Priorities"
+#~ msgstr "Köprioriteter"
+
+#~ msgid "Submit Changes"
+#~ msgstr "Spara ändringar"
+
+#~ msgid "The Queue Priority to set"
+#~ msgstr "Välj vilken köprioritet som ska användas"
 
 #~ msgid "Inbound Call Control"
 #~ msgstr "Inkommande samtal"
