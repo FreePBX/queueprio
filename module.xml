@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>13.0.1alpha1</version>
+  <version>13.0.2</version>
 	<publisher>Schmooze Com Inc</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -19,6 +19,7 @@
     </queueprio>
   </popovers>
 	<changelog>
+		*13.0.2* Version bump Beta
 			*13.0.1alpha1* Visual updates
   		*2.11.0.2* Add license file
 	  	*2.11.0.1* Database Abstraction Layer Fixes
