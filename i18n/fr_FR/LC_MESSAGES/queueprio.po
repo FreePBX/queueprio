@@ -10,53 +10,56 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 18:15-0400\n"
-"PO-Revision-Date: 2015-06-01 18:15-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-01-22 09:12+0200\n"
+"Last-Translator: Nicolas <forums@riendeau.org>\n"
+"Language-Team: French "
+"<http://weblate.freepbx.org/projects/freepbx/queueprio/fr_FR/>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.2-dev\n"
 
 #: views/grid.php:11
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: views/bootnav.php:7 views/grid.php:5
 msgid "Add Priority"
-msgstr ""
+msgstr "Ajouter une priorité"
 
 #: views/form.php:25
 msgid "Add Queue Priority"
-msgstr ""
+msgstr "Ajouter une priorité de queue"
 
 #: Queueprio.class.php:52
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: views/form.php:44
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: views/form.php:92 views/form.php:104
 msgid "Destination"
-msgstr ""
+msgstr "Destination"
 
 #: views/form.php:18
 msgid "Edit: "
-msgstr ""
+msgstr "Éditer : "
 
 #: views/form.php:114
 msgid "Invalid description specified"
-msgstr ""
+msgstr "Description spécifiée invalide"
 
 #: views/bootnav.php:5
 msgid "List Priorities"
-msgstr ""
+msgstr "Liste des priorités"
 
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
-msgstr ""
+msgstr "Priorité"
 
 #: page.queueprio.php:4
 msgid ""
@@ -69,28 +72,37 @@ msgid ""
 "DIDs, for example, and any subsequent queue that is entered would be entered "
 "with this priority"
 msgstr ""
+"Priorité de queue vous permet de définir la priorité d'un appelant dans la "
+"queue. Par défaut, la priorité d'un appelant est à 0. Une priorité "
+"supérieure mettra l'appelant en avance sur les autres appelants dans la "
+"queue. La priorité s'appliquera sur n'importe quelle queue vers laquelle cet "
+"appelant  sera dirigé. Normalement, la destination sera une queue, mais ce "
+"n'est pas une obligation. Vous pourriez décider de définir la destination "
+"d'un DID de client priorité vers un IVR qui est utilisé par d'autres DID, "
+"par exemple, et toutes les autres queues accédées hériterait de cette "
+"priorité"
 
 #: functions.inc.php:38 functions.inc.php:143
 #, php-format
 msgid "Queue Priority: %s"
-msgstr ""
+msgstr "Priorité de queue : %s"
 
 #: page.queueprio.php:18
 msgid "Queue Priorties"
-msgstr ""
+msgstr "Priorités de queue"
 
 #: Queueprio.class.php:57
 msgid "Reset"
-msgstr ""
+msgstr "Remise à 0"
 
 #: Queueprio.class.php:62
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
-msgstr ""
+msgstr "La priorité de queue de 0 à 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
-msgstr ""
+msgstr "Une description de cette instance de priorité de queue."
