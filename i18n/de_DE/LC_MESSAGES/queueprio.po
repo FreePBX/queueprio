@@ -10,53 +10,56 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 18:15-0400\n"
-"PO-Revision-Date: 2015-06-01 18:15-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-02-16 16:57+0200\n"
+"Last-Translator: Nils <Nils@heckenkamp.info>\n"
+"Language-Team: German "
+"<http://weblate.freepbx.org/projects/freepbx/queueprio/de_DE/>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: views/grid.php:11
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: views/bootnav.php:7 views/grid.php:5
 msgid "Add Priority"
-msgstr ""
+msgstr "Fügen Sie Priorität hinzu"
 
 #: views/form.php:25
 msgid "Add Queue Priority"
-msgstr ""
+msgstr "Warteschlangenpriorität hinzufügen"
 
 #: Queueprio.class.php:52
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: views/form.php:44
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: views/form.php:92 views/form.php:104
 msgid "Destination"
-msgstr ""
+msgstr "Ziel"
 
 #: views/form.php:18
 msgid "Edit: "
-msgstr ""
+msgstr "Bearbeiten: "
 
 #: views/form.php:114
 msgid "Invalid description specified"
-msgstr ""
+msgstr "Ungültige Beschreibung angegeben"
 
 #: views/bootnav.php:5
 msgid "List Priorities"
-msgstr ""
+msgstr "Listenprioritäten"
 
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
-msgstr ""
+msgstr "Priorität"
 
 #: page.queueprio.php:4
 msgid ""
@@ -69,28 +72,39 @@ msgid ""
 "DIDs, for example, and any subsequent queue that is entered would be entered "
 "with this priority"
 msgstr ""
+"Mit der Warteschlangenpriorität können Sie die Priorität eines Anrufers in "
+"einer Warteschlange festlegen. Standardmäßig ist die Priorität eines "
+"Anrufers auf 0 gesetzt. Wenn Sie eine höhere Priorität einstellen, wird der "
+"Anrufer anderen Anrufern, die sich bereits in einer Warteschlange befinden, "
+"Vorrang eingeräumt. Die Priorität gilt für jede Warteschlange, an die dieser "
+"Aufrufer schließlich weitergeleitet wird. Normalerweise würden Sie das Ziel "
+"auf eine Warteschlange festlegen, dies ist jedoch nicht erforderlich. Sie "
+"können das Ziel einer Prioritätskunden-DID beispielsweise auf ein IVR "
+"setzen, das von anderen DIDs verwendet wird, und jede nachfolgende "
+"Warteschlange, die eingegeben wird, würde mit dieser Priorität eingegeben "
+"werden"
 
 #: functions.inc.php:38 functions.inc.php:143
 #, php-format
 msgid "Queue Priority: %s"
-msgstr ""
+msgstr "Warteschlangenpriorität: %s"
 
 #: page.queueprio.php:18
 msgid "Queue Priorties"
-msgstr ""
+msgstr "Warteschlangenprioritäten"
 
 #: Queueprio.class.php:57
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: Queueprio.class.php:62
 msgid "Submit"
-msgstr ""
+msgstr "Bestätigen"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
-msgstr ""
+msgstr "Die Warteschlangenpriorität für die Einstellung 0 - 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
-msgstr ""
+msgstr "Der beschreibende Name dieser Warteschlangenprioritätsinstanz."
