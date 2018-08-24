@@ -10,16 +10,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-01 18:15-0400\n"
-"PO-Revision-Date: 2018-02-16 16:57+0200\n"
-"Last-Translator: Nils <Nils@heckenkamp.info>\n"
-"Language-Team: German "
-"<http://weblate.freepbx.org/projects/freepbx/queueprio/de_DE/>\n"
+"PO-Revision-Date: 2018-08-25 12:00+0000\n"
+"Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
+"Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: views/grid.php:11
 msgid "Actions"
@@ -99,7 +98,7 @@ msgstr "Zurücksetzen"
 
 #: Queueprio.class.php:62
 msgid "Submit"
-msgstr "Bestätigen"
+msgstr "Absenden"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
