@@ -20,10 +20,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 18:15-0400\n"
+"POT-Creation-Date: 2018-10-10 19:15+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,6 +39,15 @@ msgstr ""
 
 #: views/form.php:25
 msgid "Add Queue Priority"
+msgstr ""
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+
+#: queueprio.i18n.php:6
+msgid "Applications"
 msgstr ""
 
 #: Queueprio.class.php:52
@@ -66,6 +76,10 @@ msgstr ""
 
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
+msgstr ""
+
+#: queueprio.i18n.php:4 queueprio.i18n.php:10
+msgid "Queue Priorities"
 msgstr ""
 
 #: page.queueprio.php:4

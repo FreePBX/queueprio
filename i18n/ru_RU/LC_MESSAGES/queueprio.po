@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 18:15-0400\n"
+"POT-Creation-Date: 2018-10-10 19:15+0530\n"
 "PO-Revision-Date: 2015-04-25 00:25+0200\n"
 "Last-Translator: Yuriy <alliancesko@gmail.com>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
 "queueprio/ru_RU/>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
 #: views/grid.php:11
@@ -32,6 +32,17 @@ msgstr ""
 #: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "Добавить приоритет в очереди"
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+"Добавляет возможность повысить приоритет позвонившему перед помещением в "
+"очередь"
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr "Приложения"
 
 #: Queueprio.class.php:52
 msgid "Delete"
@@ -60,6 +71,10 @@ msgstr ""
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "Приоритет"
+
+#: queueprio.i18n.php:4 queueprio.i18n.php:10
+msgid "Queue Priorities"
+msgstr "Приоритеты в очередях"
 
 #: page.queueprio.php:4
 msgid ""
@@ -110,20 +125,8 @@ msgstr "Узнаваемое имя для шаблона приоритета �
 #~ msgid "Add Queue Priority Instance"
 #~ msgstr "Добавить шаблон приоритета в очереди"
 
-#~ msgid ""
-#~ "Adds the ability to set a callers priority higher before entering a queue"
-#~ msgstr ""
-#~ "Добавляет возможность повысить приоритет позвонившему перед помещением в "
-#~ "очередь"
-
-#~ msgid "Applications"
-#~ msgstr "Приложения"
-
 #~ msgid "Edit Queue Priority Instance"
 #~ msgstr "Редактировать шаблон приоритет в очереди"
-
-#~ msgid "Queue Priorities"
-#~ msgstr "Приоритеты в очередях"
 
 #~ msgid "Submit Changes"
 #~ msgstr "Применить изменения"

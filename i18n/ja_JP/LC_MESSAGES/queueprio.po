@@ -37,14 +37,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 18:15-0400\n"
+"POT-Creation-Date: 2018-10-10 19:15+0530\n"
 "PO-Revision-Date: 2014-02-20 04:45+0200\n"
 "Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
 "Language-Team: Japanese <http://example.com/projects/freepbx/queueprio/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 1.8\n"
 
@@ -59,6 +59,15 @@ msgstr ""
 #: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "キュー優先度を追加"
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr "キューに入る前に発信者の優先度を設定可能にします。"
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr "アプリケーション"
 
 #: Queueprio.class.php:52
 msgid "Delete"
@@ -87,6 +96,10 @@ msgstr ""
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "優先度"
+
+#: queueprio.i18n.php:4 queueprio.i18n.php:10
+msgid "Queue Priorities"
+msgstr "キュー優先度"
 
 #: page.queueprio.php:4
 msgid ""
@@ -131,18 +144,8 @@ msgstr "このキュー優先度実体の説明"
 #~ msgid "Add Queue Priority Instance"
 #~ msgstr "キュー優先度の実体を作成"
 
-#~ msgid ""
-#~ "Adds the ability to set a callers priority higher before entering a queue"
-#~ msgstr "キューに入る前に発信者の優先度を設定可能にします。"
-
-#~ msgid "Applications"
-#~ msgstr "アプリケーション"
-
 #~ msgid "Edit Queue Priority Instance"
 #~ msgstr "キュー優先度の実体を編集"
-
-#~ msgid "Queue Priorities"
-#~ msgstr "キュー優先度"
 
 #~ msgid "Submit Changes"
 #~ msgstr "変更を適用"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 18:15-0400\n"
+"POT-Creation-Date: 2018-10-10 19:15+0530\n"
 "PO-Revision-Date: 2018-08-25 12:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
@@ -31,6 +31,15 @@ msgstr "Fügen Sie Priorität hinzu"
 #: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "Warteschlangenpriorität hinzufügen"
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr ""
 
 #: Queueprio.class.php:52
 msgid "Delete"
@@ -59,6 +68,10 @@ msgstr "Listenprioritäten"
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "Priorität"
+
+#: queueprio.i18n.php:4 queueprio.i18n.php:10
+msgid "Queue Priorities"
+msgstr ""
 
 #: page.queueprio.php:4
 msgid ""

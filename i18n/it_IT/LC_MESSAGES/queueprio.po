@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-01 18:15-0400\n"
+"POT-Creation-Date: 2018-10-10 19:15+0530\n"
 "PO-Revision-Date: 2018-07-18 19:15+0000\n"
 "Last-Translator: Maurizio Longhitano <mlonghitano@teampower.it>\n"
 "Language-Team: Italian <http://*/projects/freepbx/queueprio/it/>\n"
@@ -26,6 +26,15 @@ msgstr "Aggiungi Priorità"
 #: views/form.php:25
 msgid "Add Queue Priority"
 msgstr "Aggiungi Priorità Coda"
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr ""
 
 #: Queueprio.class.php:52
 msgid "Delete"
@@ -54,6 +63,10 @@ msgstr "Elenco Priorità"
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
 msgstr "Priorità"
+
+#: queueprio.i18n.php:4 queueprio.i18n.php:10
+msgid "Queue Priorities"
+msgstr "Priorità Code"
 
 #: page.queueprio.php:4
 msgid ""
@@ -106,9 +119,6 @@ msgstr "Nome descrittivo per questa Priorità Coda."
 
 #~ msgid "Edit Queue Priority Instance"
 #~ msgstr "Modifica Priorità Coda"
-
-#~ msgid "Queue Priorities"
-#~ msgstr "Priorità Code"
 
 #~ msgid "Submit Changes"
 #~ msgstr "Conferma Cambiamenti"
