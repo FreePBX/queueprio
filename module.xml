@@ -11,7 +11,7 @@
 		Adds the ability to set a callers priority higher before entering a queue
 	</description>
   <menuitems>
-    <queueprio>Queue Priorities</queueprio>
+    <queueprio needsenginedb="yes">Queue Priorities</queueprio>
   </menuitems>
   <popovers>
     <queueprio>
