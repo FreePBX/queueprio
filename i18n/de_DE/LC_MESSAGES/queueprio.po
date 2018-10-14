@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-10 19:15+0530\n"
-"PO-Revision-Date: 2018-10-14 01:05+0000\n"
+"PO-Revision-Date: 2018-10-15 02:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
 "Language: de_DE\n"
@@ -117,7 +117,7 @@ msgstr "Absenden"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
-msgstr "Die Warteschlangenpriorität für die Einstellung 0 - 20"
+msgstr "Die einzustellende Warteschlangenpriorität 0 - 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
