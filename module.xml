@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>13.0.3</version>
+  <version>15.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -19,6 +19,7 @@
     </queueprio>
   </popovers>
 	<changelog>
+    *15.0.1* Add new Implementation Backup for 15 version.
 		*13.0.3* FREEPBX-15555 Exception Asterisk is not connected error issue fix 
 		*13.0.2* Version bump Beta
 			*13.0.1alpha1* Visual updates
