@@ -10,8 +10,6 @@ class Queueprio implements \BMO {
 	}
   public function install() {}
   public function uninstall() {}
-  public function backup() {}
-  public function restore($backup) {}
   public function doConfigPageInit($page) {
     $action = isset($_REQUEST['action']) ? $_REQUEST['action'] :  '';
     if (isset($_REQUEST['delete'])) $action = 'delete';
@@ -104,6 +102,17 @@ class Queueprio implements \BMO {
   public function listAll() {
   	$dbh = $this->db;
   	$sql = "SELECT queueprio_id, description, queue_priority, dest FROM queueprio ORDER BY description ";
+    $stmt = $dbh->prepare($sql);
+    $stmt->execute();
+    $results = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+  	if(!$results) {
+      return array();
+  	}
+  	return $results;
+  }
+  public function dumpTable(){
+  	$dbh = $this->db;
+  	$sql = "SELECT * FROM queueprio";
     $stmt = $dbh->prepare($sql);
     $stmt->execute();
     $results = $stmt->fetchAll(\PDO::FETCH_ASSOC);
