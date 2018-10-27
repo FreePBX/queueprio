@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-10 19:15+0530\n"
+"POT-Creation-Date: 2018-10-26 20:18-0400\n"
 "PO-Revision-Date: 2016-12-15 01:59+0200\n"
 "Last-Translator: Alexander <alexander.schley@paranagua.pr.gov.br>\n"
 "Language-Team: Portuguese (Brazil) <http://weblate.freepbx.org/projects/"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: Queueprio.class.php:52
+#: Queueprio.class.php:50
 msgid "Delete"
 msgstr "Apagar"
 
@@ -104,11 +104,11 @@ msgstr "Prioridade de Fila: %s"
 msgid "Queue Priorties"
 msgstr "Prioridades de Fila"
 
-#: Queueprio.class.php:57
+#: Queueprio.class.php:55
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:60
 msgid "Submit"
 msgstr "Enviar"
 

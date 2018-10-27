@@ -20,16 +20,6 @@
   </popovers>
 	<changelog>
     *15.0.1* Add new Implementation Backup for 15 version.
-		*13.0.3* FREEPBX-15555 Exception Asterisk is not connected error issue fix 
-		*13.0.2* Version bump Beta
-			*13.0.1alpha1* Visual updates
-  		*2.11.0.2* Add license file
-	  	*2.11.0.1* Database Abstraction Layer Fixes
-		*2.11.0.0* #6051
-		*2.10.0.1* #5478 
-		*2.10.0.0* new version changes
-		*2.9.0.1* set repository
-		*2.9.0.0* #4655
 	</changelog>
   <depends>
     <version>2.5.0alpha1</version>
@@ -37,6 +27,6 @@
   <location>release/2.11/queueprio-2.11.0.0.tgz</location>
   <md5sum>72e836e63a0c82ca961900cbf445def2</md5sum>
   <supported>
-    <version>13.0</version>
+    <version>15.0</version>
   </supported>
 </module>
