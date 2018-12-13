@@ -107,12 +107,14 @@ echo $usagehtml;
   </div>
   <!--END Destination-->
 </form>
-<script queueprio="javascript">
-<!--
-
+<script>
+var qprionames = <?php print json_encode(\FreePBX::Queueprio()->getallqprio($extdisplay)); ?>;
 function checkQueuePriority(theForm) {
 	var msgInvalidDescription = "<?php echo _('Invalid description specified'); ?>";
-
+	var msgduplicate = "<?php echo _("Queue Priorties description already exist");?>";
+	if (qprionames.indexOf($("#description").val()) >= 0) {
+		return warnInvalid($("#description"),msgduplicate);
+	}
 	// set up the Destination stuff
 	setDestinations(theForm, '_post_dest');
 
@@ -126,5 +128,4 @@ function checkQueuePriority(theForm) {
 
 	return true;
 }
-//-->
 </script>

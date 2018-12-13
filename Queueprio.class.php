@@ -99,6 +99,26 @@ class Queueprio implements \BMO {
     break;
     }
   }
+	public function getallqprio($id =''){
+		$dbh = $this->db;
+		$sql = "SELECT description FROM queueprio ";
+		if ($id) {
+			$sql .= " where  queueprio_id != :id ";
+		}
+		$sql .= "ORDER BY description ";
+		$stmt = $dbh->prepare($sql);
+		$stmt->execute(array(":id" => $id));
+		$results = $stmt->fetchAll(\PDO::FETCH_ASSOC);
+		if(!$results) {
+			return array();
+		}
+		$resu = array();
+		foreach($results as $res) {
+			$resu[] = $res['description'];
+		}
+		return $resu;
+	}
+
   public function listAll() {
   	$dbh = $this->db;
   	$sql = "SELECT queueprio_id, description, queue_priority, dest FROM queueprio ORDER BY description ";
