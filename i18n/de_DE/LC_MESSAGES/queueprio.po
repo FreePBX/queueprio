@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-10 19:15+0530\n"
-"PO-Revision-Date: 2018-08-25 12:00+0000\n"
+"PO-Revision-Date: 2018-10-15 02:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
 "Language: de_DE\n"
@@ -36,10 +36,12 @@ msgstr "Warteschlangenpriorität hinzufügen"
 msgid ""
 "Adds the ability to set a callers priority higher before entering a queue"
 msgstr ""
+"Fügt die Möglichkeit hinzu, die Priorität eines Anrufers vor dem Betreten "
+"einer Warteschlange höher zu setzen"
 
 #: queueprio.i18n.php:6
 msgid "Applications"
-msgstr ""
+msgstr "Anwendungen"
 
 #: Queueprio.class.php:52
 msgid "Delete"
@@ -71,7 +73,7 @@ msgstr "Priorität"
 
 #: queueprio.i18n.php:4 queueprio.i18n.php:10
 msgid "Queue Priorities"
-msgstr ""
+msgstr "Warteschlangenprioritäten"
 
 #: page.queueprio.php:4
 msgid ""
@@ -115,7 +117,7 @@ msgstr "Absenden"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
-msgstr "Die Warteschlangenpriorität für die Einstellung 0 - 20"
+msgstr "Die einzustellende Warteschlangenpriorität 0 - 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
