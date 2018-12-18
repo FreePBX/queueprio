@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-10 19:15+0530\n"
+"POT-Creation-Date: 2018-12-18 10:39+0530\n"
 "PO-Revision-Date: 2016-12-11 06:03+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
@@ -60,7 +60,7 @@ msgstr "Destino"
 msgid "Edit: "
 msgstr "Editar: "
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr "Descripción especificada inválida"
 
@@ -105,6 +105,10 @@ msgstr "Prioridad Cola: %s"
 #: page.queueprio.php:18
 msgid "Queue Priorties"
 msgstr "Prioridades de Cola"
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
+msgstr ""
 
 #: Queueprio.class.php:57
 msgid "Reset"
