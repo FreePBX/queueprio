@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:18-0400\n"
+"POT-Creation-Date: 2018-12-18 10:40+0530\n"
 "PO-Revision-Date: 2018-10-15 02:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
@@ -59,7 +59,7 @@ msgstr "Ziel"
 msgid "Edit: "
 msgstr "Bearbeiten: "
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr "Ungültige Beschreibung angegeben"
 
@@ -106,6 +106,10 @@ msgstr "Warteschlangenpriorität: %s"
 #: page.queueprio.php:18
 msgid "Queue Priorties"
 msgstr "Warteschlangenprioritäten"
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
+msgstr ""
 
 #: Queueprio.class.php:55
 msgid "Reset"

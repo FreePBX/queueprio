@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:18-0400\n"
+"POT-Creation-Date: 2018-12-18 10:40+0530\n"
 "PO-Revision-Date: 2014-02-20 04:45+0200\n"
 "Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
 "Language-Team: Japanese <http://example.com/projects/freepbx/queueprio/ja/>\n"
@@ -85,7 +85,7 @@ msgstr "宛先"
 msgid "Edit: "
 msgstr "編集："
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr "無効な説明が指定されました"
 
@@ -123,6 +123,10 @@ msgstr "キュー優先度： %s"
 
 #: page.queueprio.php:18
 msgid "Queue Priorties"
+msgstr ""
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
 msgstr ""
 
 #: Queueprio.class.php:55

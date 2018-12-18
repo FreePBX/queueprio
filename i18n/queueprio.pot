@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:18-0400\n"
+"POT-Creation-Date: 2018-12-18 10:40+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Edit: "
 msgstr ""
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr ""
 
@@ -95,6 +95,10 @@ msgstr ""
 
 #: page.queueprio.php:18
 msgid "Queue Priorties"
+msgstr ""
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
 msgstr ""
 
 #: Queueprio.class.php:55

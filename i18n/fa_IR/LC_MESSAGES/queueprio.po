@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:18-0400\n"
+"POT-Creation-Date: 2018-12-18 10:40+0530\n"
 "PO-Revision-Date: 2016-04-02 16:20+0200\n"
 "Last-Translator: Media <mousavi.media@gmail.com>\n"
 "Language-Team: Persian <http://weblate.freepbx.org/projects/freepbx/"
@@ -58,7 +58,7 @@ msgstr "داخلی"
 msgid "Edit: "
 msgstr "ویرایش ： "
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr "شرح نامعتبر"
 
@@ -101,6 +101,10 @@ msgstr "اولویت صف： %s"
 #: page.queueprio.php:18
 msgid "Queue Priorties"
 msgstr "اولویت های صف"
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
+msgstr ""
 
 #: Queueprio.class.php:55
 msgid "Reset"

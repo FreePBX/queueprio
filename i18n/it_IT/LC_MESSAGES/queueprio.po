@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-26 20:18-0400\n"
+"POT-Creation-Date: 2018-12-18 10:40+0530\n"
 "PO-Revision-Date: 2018-07-18 19:15+0000\n"
 "Last-Translator: Maurizio Longhitano <mlonghitano@teampower.it>\n"
 "Language-Team: Italian <http://*/projects/freepbx/queueprio/it/>\n"
@@ -52,7 +52,7 @@ msgstr "Destinazione"
 msgid "Edit: "
 msgstr "Modifica: "
 
-#: views/form.php:114
+#: views/form.php:113
 msgid "Invalid description specified"
 msgstr "Descrizione specificata non valida"
 
@@ -97,6 +97,10 @@ msgstr "Priorità Coda: %s"
 #: page.queueprio.php:18
 msgid "Queue Priorties"
 msgstr "Priorità Coda"
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
+msgstr ""
 
 #: Queueprio.class.php:55
 msgid "Reset"
