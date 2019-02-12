@@ -28,11 +28,13 @@ class Queueprio implements \BMO {
     switch ($action) {
     	case 'add':
     		$_REQUEST['extdisplay'] = queueprio_add($description, $queue_priority, $dest);
+		unset($_REQUEST['view']);
     		needreload();
     	break;
     	case 'edit':
-    		queueprio_edit($queueprio_id, $description, $queue_priority, $dest);
-        $_REQUEST['extdisplay'] = $queueprio_id;
+		queueprio_edit($queueprio_id, $description, $queue_priority, $dest);
+		$_REQUEST['extdisplay'] = $queueprio_id;
+		unset($_REQUEST['view']);
     		needreload();
     	break;
     	case 'delete':
