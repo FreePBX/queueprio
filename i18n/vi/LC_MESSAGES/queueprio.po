@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 10:40+0530\n"
+"POT-Creation-Date: 2019-02-19 09:04+0530\n"
 "PO-Revision-Date: 2017-07-11 20:00+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -42,7 +42,7 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: Queueprio.class.php:50
+#: Queueprio.class.php:52
 msgid "Delete"
 msgstr "Xóa"
 
@@ -108,11 +108,11 @@ msgstr "Các ưu tiên hàng đợi"
 msgid "Queue Priorties description already exist"
 msgstr ""
 
-#: Queueprio.class.php:55
+#: Queueprio.class.php:57
 msgid "Reset"
 msgstr "Cài đặt lại"
 
-#: Queueprio.class.php:60
+#: Queueprio.class.php:62
 msgid "Submit"
 msgstr "Gửi đi"
 

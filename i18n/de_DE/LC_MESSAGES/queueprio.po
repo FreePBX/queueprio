@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 10:40+0530\n"
+"POT-Creation-Date: 2019-02-19 09:04+0530\n"
 "PO-Revision-Date: 2018-10-15 02:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
@@ -43,7 +43,7 @@ msgstr ""
 msgid "Applications"
 msgstr "Anwendungen"
 
-#: Queueprio.class.php:50
+#: Queueprio.class.php:52
 msgid "Delete"
 msgstr "Löschen"
 
@@ -111,11 +111,11 @@ msgstr "Warteschlangenprioritäten"
 msgid "Queue Priorties description already exist"
 msgstr ""
 
-#: Queueprio.class.php:55
+#: Queueprio.class.php:57
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: Queueprio.class.php:60
+#: Queueprio.class.php:62
 msgid "Submit"
 msgstr "Absenden"
 
