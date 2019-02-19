@@ -3,13 +3,13 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for queueprio
-# Copyright (C) 2008-2018 Sangoma Technologies, Inc.
+# Copyright (C) 2008-2019 Sangoma Technologies, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 10:39+0530\n"
+"POT-Creation-Date: 2019-02-19 09:03+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: Queueprio.class.php:52
+#: Queueprio.class.php:54
 msgid "Delete"
 msgstr ""
 
@@ -101,11 +101,11 @@ msgstr ""
 msgid "Queue Priorties description already exist"
 msgstr ""
 
-#: Queueprio.class.php:57
+#: Queueprio.class.php:59
 msgid "Reset"
 msgstr ""
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:64
 msgid "Submit"
 msgstr ""
 

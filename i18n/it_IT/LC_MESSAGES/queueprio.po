@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 10:39+0530\n"
+"POT-Creation-Date: 2019-02-19 09:03+0530\n"
 "PO-Revision-Date: 2018-07-18 19:15+0000\n"
 "Last-Translator: Maurizio Longhitano <mlonghitano@teampower.it>\n"
 "Language-Team: Italian <http://*/projects/freepbx/queueprio/it/>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: Queueprio.class.php:52
+#: Queueprio.class.php:54
 msgid "Delete"
 msgstr "Elimina"
 
@@ -102,11 +102,11 @@ msgstr "Priorità Coda"
 msgid "Queue Priorties description already exist"
 msgstr ""
 
-#: Queueprio.class.php:57
+#: Queueprio.class.php:59
 msgid "Reset"
 msgstr "Reset"
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:64
 msgid "Submit"
 msgstr "Invia"
 

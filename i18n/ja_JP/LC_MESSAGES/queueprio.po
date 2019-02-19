@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 10:39+0530\n"
+"POT-Creation-Date: 2019-02-19 09:03+0530\n"
 "PO-Revision-Date: 2014-02-20 04:45+0200\n"
 "Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
 "Language-Team: Japanese <http://example.com/projects/freepbx/queueprio/ja/>\n"
@@ -69,7 +69,7 @@ msgstr "キューに入る前に発信者の優先度を設定可能にします
 msgid "Applications"
 msgstr "アプリケーション"
 
-#: Queueprio.class.php:52
+#: Queueprio.class.php:54
 msgid "Delete"
 msgstr "削除"
 
@@ -129,11 +129,11 @@ msgstr ""
 msgid "Queue Priorties description already exist"
 msgstr ""
 
-#: Queueprio.class.php:57
+#: Queueprio.class.php:59
 msgid "Reset"
 msgstr ""
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:64
 msgid "Submit"
 msgstr ""
 
