@@ -36,7 +36,7 @@ function queueprio_getdestinfo($dest) {
 		} else {
 			$type = isset($active_modules['queueprio']['type'])?$active_modules['queueprio']['type']:'setup';
 			return array('description' => sprintf(_("Queue Priority: %s"),$thisexten['description']),
-			             'edit_url' => 'config.php?display=queueprio&type='.$type.'&extdisplay='.urlencode($exten),
+			             'edit_url' => 'config.php?display=queueprio&view=form&type='.$type.'&extdisplay='.urlencode($exten),
 								  );
 		}
 	} else {
