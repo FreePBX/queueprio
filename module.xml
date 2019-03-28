@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>15.0.3</version>
+  <version>15.0.4</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -19,6 +19,7 @@
     </queueprio>
   </popovers>
 	<changelog>
+		*15.0.4* fixing legacy restore 
 		*15.0.3* FREEPBX-18351 After adding/editing a Queue Priority entry the page is not redirecting to list page 
 		*15.0.2* FREEPBX-15215 Multiple Queue Priority can be added with same Description 
     *15.0.1* Add new Implementation Backup for 15 version.
