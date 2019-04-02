@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 09:03+0530\n"
-"PO-Revision-Date: 2019-04-02 10:13+0000\n"
+"PO-Revision-Date: 2019-04-03 11:00+0000\n"
 "Last-Translator: Bastian Mertgen <b.mertgen@bastian-mertgen.de>\n"
 "Language-Team: German <http://*/projects/freepbx/queueprio/de/>\n"
 "Language: de_DE\n"
@@ -26,7 +26,7 @@ msgstr "Aktionen"
 
 #: views/bootnav.php:7 views/grid.php:5
 msgid "Add Priority"
-msgstr "Fügen Sie Priorität hinzu"
+msgstr "Priorität hinzufügen"
 
 #: views/form.php:25
 msgid "Add Queue Priority"
@@ -65,7 +65,7 @@ msgstr "Ungültige Beschreibung angegeben"
 
 #: views/bootnav.php:5
 msgid "List Priorities"
-msgstr "Listenprioritäten"
+msgstr "Prioritäten auflisten"
 
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
@@ -88,14 +88,14 @@ msgid ""
 msgstr ""
 "Mit der Warteschlangenpriorität können Sie die Priorität eines Anrufers in "
 "einer Warteschlange festlegen. Standardmäßig ist die Priorität eines "
-"Anrufers auf 0 gesetzt. Wenn Sie eine höhere Priorität einstellen, wird der "
-"Anrufer anderen Anrufern, die sich bereits in einer Warteschlange befinden, "
-"Vorrang eingeräumt. Die Priorität gilt für jede Warteschlange, an die dieser "
+"Anrufers auf 0 gesetzt. Wenn Sie eine höhere Priorität einstellen, wird dem "
+"Anrufer gegenüber anderen Anrufern in einer Warteschlange Vorrang "
+"eingeräumt. Die Priorität gilt für jede Warteschlange, an die dieser "
 "Aufrufer schließlich weitergeleitet wird. Normalerweise würden Sie das Ziel "
 "auf eine Warteschlange festlegen, dies ist jedoch nicht erforderlich. Sie "
-"können das Ziel einer Prioritätskunden-DID beispielsweise auf ein IVR "
-"setzen, das von anderen DIDs verwendet wird, und jede nachfolgende "
-"Warteschlange, die eingegeben wird, würde mit dieser Priorität eingegeben "
+"können als Ziel einer Durchwahl für Prioritätskunden beispielsweise ein IVR "
+"eintragen, das von anderen Durchwahlen verwendet wird, und jede nachfolgende "
+"Warteschlange, die der Anrufer betritt, würde mit dieser Priorität betreten "
 "werden"
 
 #: functions.inc.php:38 functions.inc.php:143
@@ -126,4 +126,4 @@ msgstr "Die einzustellende Warteschlangenpriorität 0 - 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
-msgstr "Der beschreibende Name dieser Warteschlangenprioritätsinstanz."
+msgstr "Eine aussagekräftige Beschreibung für diese Warteschlangenpriorität."
