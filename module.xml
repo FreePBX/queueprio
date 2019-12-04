@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>13.0.6</version>
+  <version>13.0.7</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -19,6 +19,7 @@
     </queueprio>
   </popovers>
 	<changelog>
+		*13.0.7* FREEI-924 Fix XSS Bootstrap Datatable Issues 
 		*13.0.6* Fixing FREEPBX-17867 
 		*13.0.5* FREEPBX-18351 After adding/editing a Queue Priority entry the page is not redirecting to list page 
 		*13.0.4* FREEPBX-15215 Multiple Queue Priority can be added with same Description 
