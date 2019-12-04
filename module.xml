@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>15.0.9</version>
+  <version>15.0.10</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -19,6 +19,7 @@
     </queueprio>
   </popovers>
 	<changelog>
+		*15.0.10* FREEI-924 Fix XSS Bootstrap Datatable Issues 
 		*15.0.9* Related to FREEPBX-20414: removed $jobid from runRestore() 
 		*15.0.8* FREEPBX-20378 Restoring legacy(FreePBX 14) Backup into FreePBX 15 system is not restoring Queue Priorities entries. 
 		*15.0.7* FREEPBX-20422 Restoring FreePBX 15 system is not restoring Queue Priority entries. 
