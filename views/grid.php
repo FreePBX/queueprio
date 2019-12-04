@@ -4,7 +4,7 @@ $dataurl = "ajax.php?module=queueprio&command=getJSON&jdata=grid";
 <div id="toolbar-all">
   <a href="?display=queueprio&view=form" class="btn btn-default"><i class="fa fa-plus"></i> <?php echo _("Add Priority")?></a>
 </div>
-<table id="queuepriogrid" data-url="<?php echo $dataurl?>" data-cache="false" data-toolbar="#toolbar-all" data-maintain-selected="true" data-show-columns="true" data-show-toggle="true" data-toggle="table" data-pagination="true" data-search="true" class="table table-striped">
+<table id="queuepriogrid" data-url="<?php echo $dataurl?>" data-escape="true" data-cache="false" data-toolbar="#toolbar-all" data-maintain-selected="true" data-show-columns="true" data-show-toggle="true" data-toggle="table" data-pagination="true" data-search="true" class="table table-striped">
   <thead>
     <tr>
       <th data-field="description"><?php echo _("Priority")?></th>
