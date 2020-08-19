@@ -9,7 +9,8 @@
   <category>Applications</category>
   <description>
 		Adds the ability to set a callers priority higher before entering a queue
-	</description>
+  </description>
+  <more-info>https://wiki.freepbx.org/display/FPG/Queue+Priorities+Module</more-info>
   <menuitems>
     <queueprio needsenginedb="yes">Queue Priorities</queueprio>
   </menuitems>
