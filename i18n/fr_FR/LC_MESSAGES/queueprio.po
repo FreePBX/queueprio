@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 09:03+0530\n"
-"PO-Revision-Date: 2016-02-04 23:04+0200\n"
-"Last-Translator: Nicolas Riendeau <freepbx@riendeau.org>\n"
+"PO-Revision-Date: 2021-09-22 06:53+0000\n"
+"Last-Translator: jeremie cattan <freepbx@famillecattan.com>\n"
 "Language-Team: French <http://weblate.freepbx.org/projects/freepbx/queueprio/"
-"fr_FR/>\n"
+"fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: views/grid.php:11
 msgid "Actions"
@@ -37,10 +37,12 @@ msgstr "Ajouter une priorité de queue"
 msgid ""
 "Adds the ability to set a callers priority higher before entering a queue"
 msgstr ""
+"Ajoute la possibilité de définir une priorité d'appelants plus élevée avant "
+"d'entrer dans une file d'attente"
 
 #: queueprio.i18n.php:6
 msgid "Applications"
-msgstr ""
+msgstr "Applications"
 
 #: Queueprio.class.php:54
 msgid "Delete"
@@ -72,7 +74,7 @@ msgstr "Priorité"
 
 #: queueprio.i18n.php:4 queueprio.i18n.php:10
 msgid "Queue Priorities"
-msgstr ""
+msgstr "Priorités de file d'attente"
 
 #: page.queueprio.php:4
 msgid ""
@@ -106,7 +108,7 @@ msgstr "Priorités de queue"
 
 #: views/form.php:114
 msgid "Queue Priorties description already exist"
-msgstr ""
+msgstr "La description des priorités de file d'attente existe déjà"
 
 #: Queueprio.class.php:59
 msgid "Reset"
