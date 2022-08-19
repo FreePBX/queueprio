@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 09:03+0530\n"
-"PO-Revision-Date: 2021-11-23 08:01+0000\n"
+"PO-Revision-Date: 2022-08-19 05:44+0000\n"
 "Last-Translator: Dmitriy Q <krotesk@ya.ru>\n"
 "Language-Team: Russian <http://weblate.freepbx.org/projects/freepbx/"
 "queueprio/ru/>\n"
@@ -23,11 +23,11 @@ msgstr ""
 
 #: views/grid.php:11
 msgid "Actions"
-msgstr ""
+msgstr "Действия"
 
 #: views/bootnav.php:7 views/grid.php:5
 msgid "Add Priority"
-msgstr ""
+msgstr "Добавить приоритет"
 
 #: views/form.php:25
 msgid "Add Queue Priority"
@@ -66,7 +66,7 @@ msgstr "Использовано неправильное описание"
 
 #: views/bootnav.php:5
 msgid "List Priorities"
-msgstr ""
+msgstr "Список приоритетов"
 
 #: views/form.php:68 views/grid.php:10
 msgid "Priority"
@@ -104,15 +104,15 @@ msgstr "Приоритет очереди %s"
 
 #: page.queueprio.php:18
 msgid "Queue Priorties"
-msgstr ""
+msgstr "Приоритеты очереди"
 
 #: views/form.php:114
 msgid "Queue Priorties description already exist"
-msgstr ""
+msgstr "Описание приоритетов очереди уже существует"
 
 #: Queueprio.class.php:59
 msgid "Reset"
-msgstr ""
+msgstr "Сброс"
 
 #: Queueprio.class.php:64
 msgid "Submit"
@@ -120,7 +120,7 @@ msgstr "Применить"
 
 #: views/form.php:80
 msgid "The Queue Priority to set 0 - 20"
-msgstr ""
+msgstr "Приоритет очереди для установки 0 - 20"
 
 #: views/form.php:56
 msgid "The descriptive name of this Queue Priority instance."
