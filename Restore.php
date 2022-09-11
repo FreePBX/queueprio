@@ -1,12 +1,12 @@
 <?php
-namespace FreePBX\modules\queueprio;
+namespace FreePBX\modules\Queueprio;
 use FreePBX\modules\Backup as Base;
 class Restore Extends Base\RestoreBase{
 	public function runRestore(){
 		$configs = $this->getConfigs();
-		$this->importTables($configs['tables']);
-		$this->importFeatureCodes($configs['features']);
 		$this->importAdvancedSettings($configs['settings']);
+		$this->importFeatureCodes($configs['features']);
+		$this->importTables($configs['tables']);
 	}
 
 	public function processLegacy($pdo, $data, $tables, $unknownTables){

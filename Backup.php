@@ -1,13 +1,15 @@
 <?php
-namespace FreePBX\modules\queueprio;
+namespace FreePBX\modules\Queueprio;
 use FreePBX\modules\Backup as Base;
-class Backup Extends Base\BackupBase{
+class Backup Extends Base\BackupBase
+{
 	public function runBackup($id,$transaction){
 		$this->addDependency('queues');
-		$this->addConfigs([
-			'tables' => $this->dumpDBTables('queueprio',false),
+		$configs = [
+			'tables' => $this->dumpTables(),
 			'features' => $this->dumpFeatureCodes(),
 			'settings' => $this->dumpAdvancedSettings()
-		]);
+		];
+		$this->addConfigs($configs);
 	}
 }
