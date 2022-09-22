@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-18 11:08+0200\n"
-"PO-Revision-Date: 2022-09-18 11:09+0200\n"
+"POT-Creation-Date: 2022-09-22 20:03+0200\n"
+"PO-Revision-Date: 2022-09-22 20:04+0200\n"
 "Last-Translator: Javier Pastor <jpastor@cerebelum.net>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
 "queueprio/es_ES/>\n"
@@ -110,59 +110,60 @@ msgstr "¡Algunas prioridades no se pudieron eliminar!"
 msgid "Undefined"
 msgstr "No Definido"
 
-#: Queueprio.class.php:771 Queueprio.class.php:795
+#: Queueprio.class.php:772 Queueprio.class.php:796
 #, php-format
 msgid "Queue Priority: %s"
 msgstr "Prioridad Cola: %s"
 
-#: Queueprio.class.php:844
+#: Queueprio.class.php:845 views/page.main.php:16
 msgid "Queue Priorities"
 msgstr "Prioridades Cola"
 
-#: Queueprio.class.php:845
+#: Queueprio.class.php:846
 msgid "Import/Export Queue Priorities"
 msgstr "Importación/Exportación de Prioridades de la Cola"
 
-#: Queueprio.class.php:856 views/rnav.php:23 views/view.form.php:64
-#: views/view.grid.add.php:19 views/view.grid.php:28
+#: Queueprio.class.php:857 views/rnav.php:23 views/view.form.php:64
+#: views/view.grid.add.php:19 views/view.grid.php:29
 msgid "Name"
 msgstr "Nombre"
 
-#: Queueprio.class.php:857 views/view.grid.add.php:26
+#: Queueprio.class.php:858 views/view.grid.add.php:26
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Un nombre descriptivo para esta Instancia Prioridad Cola."
 
-#: Queueprio.class.php:864 views/view.form.php:89 views/view.grid.add.php:30
+#: Queueprio.class.php:865 views/view.form.php:89 views/view.grid.add.php:30
+#: views/view.grid.php:30
 msgid "Priority"
 msgstr "Prioridad"
 
-#: Queueprio.class.php:865 views/view.form.php:101 views/view.grid.add.php:38
+#: Queueprio.class.php:866 views/view.form.php:101 views/view.grid.add.php:38
 msgid "The Queue Priority to set 0 - 20"
 msgstr "La Prioridad de Cola a establecer 0 - 20"
 
-#: Queueprio.class.php:870 Queueprio.class.php:871 views/view.form.php:114
+#: Queueprio.class.php:871 Queueprio.class.php:872 views/view.form.php:114
 #: views/view.form.php:126 views/view.grid.add.php:42
-#: views/view.grid.add.php:45 views/view.grid.php:29
+#: views/view.grid.add.php:45 views/view.grid.php:31
 msgid "Destination"
 msgstr "Destino"
 
-#: Queueprio.class.php:884
+#: Queueprio.class.php:885
 msgid "Name Required"
 msgstr "Nombre Requerido"
 
-#: Queueprio.class.php:887
+#: Queueprio.class.php:888
 msgid "Priority Required"
 msgstr "Prioridad Requerida"
 
-#: Queueprio.class.php:890
+#: Queueprio.class.php:891
 msgid "Destination Required"
 msgstr "Destino Requerido"
 
-#: Queueprio.class.php:896
+#: Queueprio.class.php:897
 msgid "Error Add Priority"
 msgstr "Error al añadir la Prioridad"
 
-#: Queueprio.class.php:907
+#: Queueprio.class.php:908
 msgid "Error Update Priority"
 msgstr "Error al actualizar la Prioridad"
 
@@ -171,7 +172,7 @@ msgid "Invalid name specified"
 msgstr "Nombre especificado no valido"
 
 #: assets/js/queueprio.js:11
-msgid "Queue Priorties name already exist"
+msgid "Queue Priorities name already exist"
 msgstr "El nombre de las prioridades de la cola ya existe"
 
 #: assets/js/queueprio.js:81
@@ -182,54 +183,50 @@ msgstr "Editar Prioridad"
 msgid "Delete Priority"
 msgstr "Eliminar Prioridad"
 
-#: assets/js/queueprio.js:113
+#: assets/js/queueprio.js:120
 msgid "Are you sure you wish to delete these Priorities?"
 msgstr "¿Está seguro de que desea eliminar estas Prioridades?"
 
-#: assets/js/queueprio.js:114 assets/js/queueprio.js:177
+#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
 msgid "Yes"
 msgstr "Si"
 
-#: assets/js/queueprio.js:114 assets/js/queueprio.js:177
+#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
 msgid "No"
 msgstr "No"
 
-#: assets/js/queueprio.js:116
+#: assets/js/queueprio.js:123
 msgid "Deleting..."
 msgstr "Eliminando..."
 
-#: assets/js/queueprio.js:137 views/view.grid.php:6
+#: assets/js/queueprio.js:144 views/view.grid.php:6
 msgid "Delete Priorities"
 msgstr "Eliminar Prioridades"
 
-#: assets/js/queueprio.js:148
+#: assets/js/queueprio.js:155
 msgid "A command is already processing, please wait"
 msgstr "Un comando ya se está procesando, por favor espere"
 
-#: assets/js/queueprio.js:176
+#: assets/js/queueprio.js:183
 #, javascript-format
 msgid "Are you sure you wish to delete the Priority \"%s\"?"
 msgstr "¿Está seguro de que desea eliminar la prioridad \"%s\"?"
 
-#: assets/js/queueprio.js:251
+#: assets/js/queueprio.js:258
 msgid "Update Priority"
 msgstr "Actualizar Prioridad"
 
-#: assets/js/queueprio.js:252
+#: assets/js/queueprio.js:259
 msgid "Define the settings to update the Priority"
 msgstr "Definir la configuración para actualizar la Prioridad"
 
-#: assets/js/queueprio.js:254 views/view.grid.add.php:245
+#: assets/js/queueprio.js:261 views/view.grid.add.php:245
 msgid "Create Priority"
 msgstr "Crear Prioridad"
 
-#: assets/js/queueprio.js:255 views/view.grid.add.php:209
+#: assets/js/queueprio.js:262 views/view.grid.add.php:209
 msgid "Define Settings for a new Priority"
 msgstr "Definir la configuración de una nueva Prioridad"
-
-#: views/page.main.php:16
-msgid "Queue Priorties"
-msgstr "Prioridades de Cola"
 
 #: views/page.main.php:17
 msgid ""
@@ -253,7 +250,7 @@ msgstr ""
 "esta prioridad."
 
 #: views/page.main.php:17
-msgid "What is Queue Priorties?"
+msgid "What is Queue Priorities?"
 msgstr "¿Qué es Prioridades de la Cola?"
 
 #: views/rnav.php:7
@@ -293,17 +290,20 @@ msgstr "Cancelar"
 msgid "New Priority"
 msgstr "Nueva Prioridad"
 
-#: views/view.grid.php:27
+#: views/view.grid.php:28
 msgid "ID"
 msgstr "ID"
 
-#: views/view.grid.php:30
+#: views/view.grid.php:32
 msgid "In Use"
 msgstr "En Uso"
 
-#: views/view.grid.php:31
+#: views/view.grid.php:33
 msgid "Actions"
 msgstr "Acciones"
+
+#~ msgid "Queue Priorties"
+#~ msgstr "Prioridades de Cola"
 
 #~ msgid "Description"
 #~ msgstr "Descripción"

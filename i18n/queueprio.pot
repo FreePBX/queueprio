@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-18 11:08+0200\n"
+"POT-Creation-Date: 2022-09-22 20:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,59 +108,60 @@ msgstr ""
 msgid "Undefined"
 msgstr ""
 
-#: Queueprio.class.php:771 Queueprio.class.php:795
+#: Queueprio.class.php:772 Queueprio.class.php:796
 #, php-format
 msgid "Queue Priority: %s"
 msgstr ""
 
-#: Queueprio.class.php:844
+#: Queueprio.class.php:845 views/page.main.php:16
 msgid "Queue Priorities"
 msgstr ""
 
-#: Queueprio.class.php:845
+#: Queueprio.class.php:846
 msgid "Import/Export Queue Priorities"
 msgstr ""
 
-#: Queueprio.class.php:856 views/rnav.php:23 views/view.form.php:64
-#: views/view.grid.add.php:19 views/view.grid.php:28
+#: Queueprio.class.php:857 views/rnav.php:23 views/view.form.php:64
+#: views/view.grid.add.php:19 views/view.grid.php:29
 msgid "Name"
 msgstr ""
 
-#: Queueprio.class.php:857 views/view.grid.add.php:26
+#: Queueprio.class.php:858 views/view.grid.add.php:26
 msgid "The descriptive name of this Queue Priority instance."
 msgstr ""
 
-#: Queueprio.class.php:864 views/view.form.php:89 views/view.grid.add.php:30
+#: Queueprio.class.php:865 views/view.form.php:89 views/view.grid.add.php:30
+#: views/view.grid.php:30
 msgid "Priority"
 msgstr ""
 
-#: Queueprio.class.php:865 views/view.form.php:101 views/view.grid.add.php:38
+#: Queueprio.class.php:866 views/view.form.php:101 views/view.grid.add.php:38
 msgid "The Queue Priority to set 0 - 20"
 msgstr ""
 
-#: Queueprio.class.php:870 Queueprio.class.php:871 views/view.form.php:114
+#: Queueprio.class.php:871 Queueprio.class.php:872 views/view.form.php:114
 #: views/view.form.php:126 views/view.grid.add.php:42
-#: views/view.grid.add.php:45 views/view.grid.php:29
+#: views/view.grid.add.php:45 views/view.grid.php:31
 msgid "Destination"
 msgstr ""
 
-#: Queueprio.class.php:884
+#: Queueprio.class.php:885
 msgid "Name Required"
 msgstr ""
 
-#: Queueprio.class.php:887
+#: Queueprio.class.php:888
 msgid "Priority Required"
 msgstr ""
 
-#: Queueprio.class.php:890
+#: Queueprio.class.php:891
 msgid "Destination Required"
 msgstr ""
 
-#: Queueprio.class.php:896
+#: Queueprio.class.php:897
 msgid "Error Add Priority"
 msgstr ""
 
-#: Queueprio.class.php:907
+#: Queueprio.class.php:908
 msgid "Error Update Priority"
 msgstr ""
 
@@ -169,7 +170,7 @@ msgid "Invalid name specified"
 msgstr ""
 
 #: assets/js/queueprio.js:11
-msgid "Queue Priorties name already exist"
+msgid "Queue Priorities name already exist"
 msgstr ""
 
 #: assets/js/queueprio.js:81
@@ -180,53 +181,49 @@ msgstr ""
 msgid "Delete Priority"
 msgstr ""
 
-#: assets/js/queueprio.js:113
+#: assets/js/queueprio.js:120
 msgid "Are you sure you wish to delete these Priorities?"
 msgstr ""
 
-#: assets/js/queueprio.js:114 assets/js/queueprio.js:177
+#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
 msgid "Yes"
 msgstr ""
 
-#: assets/js/queueprio.js:114 assets/js/queueprio.js:177
+#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
 msgid "No"
 msgstr ""
 
-#: assets/js/queueprio.js:116
+#: assets/js/queueprio.js:123
 msgid "Deleting..."
 msgstr ""
 
-#: assets/js/queueprio.js:137 views/view.grid.php:6
+#: assets/js/queueprio.js:144 views/view.grid.php:6
 msgid "Delete Priorities"
 msgstr ""
 
-#: assets/js/queueprio.js:148
+#: assets/js/queueprio.js:155
 msgid "A command is already processing, please wait"
 msgstr ""
 
-#: assets/js/queueprio.js:176
+#: assets/js/queueprio.js:183
 #, javascript-format
 msgid "Are you sure you wish to delete the Priority \"%s\"?"
 msgstr ""
 
-#: assets/js/queueprio.js:251
+#: assets/js/queueprio.js:258
 msgid "Update Priority"
 msgstr ""
 
-#: assets/js/queueprio.js:252
+#: assets/js/queueprio.js:259
 msgid "Define the settings to update the Priority"
 msgstr ""
 
-#: assets/js/queueprio.js:254 views/view.grid.add.php:245
+#: assets/js/queueprio.js:261 views/view.grid.add.php:245
 msgid "Create Priority"
 msgstr ""
 
-#: assets/js/queueprio.js:255 views/view.grid.add.php:209
+#: assets/js/queueprio.js:262 views/view.grid.add.php:209
 msgid "Define Settings for a new Priority"
-msgstr ""
-
-#: views/page.main.php:16
-msgid "Queue Priorties"
 msgstr ""
 
 #: views/page.main.php:17
@@ -242,7 +239,7 @@ msgid ""
 msgstr ""
 
 #: views/page.main.php:17
-msgid "What is Queue Priorties?"
+msgid "What is Queue Priorities?"
 msgstr ""
 
 #: views/rnav.php:7
@@ -282,14 +279,14 @@ msgstr ""
 msgid "New Priority"
 msgstr ""
 
-#: views/view.grid.php:27
+#: views/view.grid.php:28
 msgid "ID"
 msgstr ""
 
-#: views/view.grid.php:30
+#: views/view.grid.php:32
 msgid "In Use"
 msgstr ""
 
-#: views/view.grid.php:31
+#: views/view.grid.php:33
 msgid "Actions"
 msgstr ""
