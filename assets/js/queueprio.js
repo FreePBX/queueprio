@@ -8,7 +8,7 @@ function sourceRedirect(id) {
 
 function checkQueuePriority(theForm) {
 	var msgInvalidDescription = _('Invalid name specified');
-	var msgduplicate = _("Queue Priorties name already exist");
+	var msgduplicate = _("Queue Priorities name already exist");
 	if (qprionames.indexOf($("#priority_name").val()) >= 0) {
 		return warnInvalid($("#priority_name"),msgduplicate);
 	}
