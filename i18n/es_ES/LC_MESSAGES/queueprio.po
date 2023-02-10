@@ -10,16 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 09:03+0530\n"
-"PO-Revision-Date: 2016-12-11 06:03+0200\n"
-"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"PO-Revision-Date: 2023-02-10 18:54+0000\n"
+"Last-Translator: Javier Pastor <jpastor@cerebelum.net>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
-"queueprio/es_ES/>\n"
+"queueprio/es/>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #: views/grid.php:11
 msgid "Actions"
@@ -108,7 +108,7 @@ msgstr "Prioridades de Cola"
 
 #: views/form.php:114
 msgid "Queue Priorties description already exist"
-msgstr ""
+msgstr "La descripción de las Prioridades de Cola ya existe"
 
 #: Queueprio.class.php:59
 msgid "Reset"
