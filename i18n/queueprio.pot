@@ -3,41 +3,44 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for queueprio
-# Copyright (C) 2008-2021 Sangoma Technologies, Inc.
+# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-22 20:03+0200\n"
+"POT-Creation-Date: 2023-02-13 04:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.1.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: i18n\n"
-"X-Poedit-SearchPathExcluded-1: .git\n"
 
-#: Queueprio.class.php:141
-#, php-format
-msgid "Page Not Found (%s)!!!!"
+#: views/view.grid.php:33
+msgid "Actions"
 msgstr ""
 
-#: Queueprio.class.php:156
-msgid "Delete"
+#: views/rnav.php:10
+msgid "Add Priority"
 msgstr ""
 
-#: Queueprio.class.php:161
-msgid "Reset"
+#: views/view.form.php:44
+msgid "Add Queue Priority"
 msgstr ""
 
-#: Queueprio.class.php:166
-msgid "Submit"
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: views/view.grid.add.php:244
+msgid "Cancel"
 msgstr ""
 
 #: Queueprio.class.php:202
@@ -45,185 +48,153 @@ msgstr ""
 msgid "Command [%s] not valid!"
 msgstr ""
 
-#: Queueprio.class.php:214
-msgid "Missing ID!"
-msgstr ""
-
-#: Queueprio.class.php:221 Queueprio.class.php:359
+#: Queueprio.class.php:333
 #, php-format
-msgid "ID (%s) Not found!"
+msgid "Could not delete priority '%s'!"
 msgstr ""
 
-#: Queueprio.class.php:244
-msgid "Priority name cannot be empty!"
+#: views/view.grid.add.php:245
+msgid "Create Priority"
 msgstr ""
 
-#: Queueprio.class.php:248
-msgid "You cannot create a priority the same name as an existing priority!"
+#: views/view.grid.add.php:209
+msgid "Define Settings for a new Priority"
 msgstr ""
 
-#: Queueprio.class.php:252
-msgid "The priority with the specified ID could not be located!"
+#: Queueprio.class.php:156
+msgid "Delete"
 msgstr ""
 
-#: Queueprio.class.php:256
-msgid "You cannot rename a priority to the same name of an existing priority!"
-msgstr ""
-
-#: Queueprio.class.php:259
-msgid "You have not selected a destination!"
-msgstr ""
-
-#: Queueprio.class.php:281
-msgid "Error Creating Priority!"
-msgstr ""
-
-#: Queueprio.class.php:294
-msgid "Error Updating Priority!"
-msgstr ""
-
-#: Queueprio.class.php:299
-#, php-format
-msgid "The '%s' option is not supported!"
-msgstr ""
-
-#: Queueprio.class.php:309
-msgid "Invalid data received!"
+#: views/view.grid.php:6
+msgid "Delete Priorities"
 msgstr ""
 
 #: Queueprio.class.php:326
 msgid "Delete Sccessfully"
 msgstr ""
 
-#: Queueprio.class.php:333
-#, php-format
-msgid "Could not delete priority '%s'!"
-msgstr ""
-
-#: Queueprio.class.php:338
-msgid "Some priorities could not be deleted!"
-msgstr ""
-
-#: Queueprio.class.php:538 Queueprio.class.php:582
-msgid "Undefined"
-msgstr ""
-
-#: Queueprio.class.php:772 Queueprio.class.php:796
-#, php-format
-msgid "Queue Priority: %s"
-msgstr ""
-
-#: Queueprio.class.php:845 views/page.main.php:16
-msgid "Queue Priorities"
-msgstr ""
-
-#: Queueprio.class.php:846
-msgid "Import/Export Queue Priorities"
-msgstr ""
-
-#: Queueprio.class.php:857 views/rnav.php:23 views/view.form.php:64
-#: views/view.grid.add.php:19 views/view.grid.php:29
-msgid "Name"
-msgstr ""
-
-#: Queueprio.class.php:858 views/view.grid.add.php:26
-msgid "The descriptive name of this Queue Priority instance."
-msgstr ""
-
-#: Queueprio.class.php:865 views/view.form.php:89 views/view.grid.add.php:30
-#: views/view.grid.php:30
-msgid "Priority"
-msgstr ""
-
-#: Queueprio.class.php:866 views/view.form.php:101 views/view.grid.add.php:38
-msgid "The Queue Priority to set 0 - 20"
-msgstr ""
-
-#: Queueprio.class.php:871 Queueprio.class.php:872 views/view.form.php:114
-#: views/view.form.php:126 views/view.grid.add.php:42
-#: views/view.grid.add.php:45 views/view.grid.php:31
+#: Queueprio.class.php:871
+#: Queueprio.class.php:872
+#: views/view.form.php:114
+#: views/view.form.php:126
+#: views/view.grid.add.php:42
+#: views/view.grid.add.php:45
+#: views/view.grid.php:31
 msgid "Destination"
-msgstr ""
-
-#: Queueprio.class.php:885
-msgid "Name Required"
-msgstr ""
-
-#: Queueprio.class.php:888
-msgid "Priority Required"
 msgstr ""
 
 #: Queueprio.class.php:891
 msgid "Destination Required"
 msgstr ""
 
+#: views/view.form.php:44
+#, php-format
+msgid "Edit: %s (%s)"
+msgstr ""
+
 #: Queueprio.class.php:897
 msgid "Error Add Priority"
+msgstr ""
+
+#: Queueprio.class.php:281
+msgid "Error Creating Priority!"
 msgstr ""
 
 #: Queueprio.class.php:908
 msgid "Error Update Priority"
 msgstr ""
 
+#: Queueprio.class.php:294
+msgid "Error Updating Priority!"
+msgstr ""
+
+#: views/view.grid.add.php:222
+msgid "Error: Data could not be loaded!"
+msgstr ""
+
+#: views/view.grid.php:28
+msgid "ID"
+msgstr ""
+
+#: Queueprio.class.php:221
+#: Queueprio.class.php:359
+#, php-format
+msgid "ID (%s) Not found!"
+msgstr ""
+
+#: Queueprio.class.php:846
+msgid "Import/Export Queue Priorities"
+msgstr ""
+
+#: views/view.grid.php:32
+msgid "In Use"
+msgstr ""
+
+#: Queueprio.class.php:309
+msgid "Invalid data received!"
+msgstr ""
+
 #: assets/js/queueprio.js:10
 msgid "Invalid name specified"
 msgstr ""
 
+#: views/rnav.php:7
+msgid "List Priorities"
+msgstr ""
+
+#: views/view.grid.add.php:215
+msgid "Loading..."
+msgstr ""
+
+#: Queueprio.class.php:214
+msgid "Missing ID!"
+msgstr ""
+
+#: Queueprio.class.php:857
+#: views/rnav.php:23
+#: views/view.form.php:64
+#: views/view.grid.add.php:19
+#: views/view.grid.php:29
+msgid "Name"
+msgstr ""
+
+#: Queueprio.class.php:885
+msgid "Name Required"
+msgstr ""
+
+#: views/view.grid.php:3
+msgid "New Priority"
+msgstr ""
+
+#: Queueprio.class.php:141
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr ""
+
+#: Queueprio.class.php:865
+#: views/view.form.php:89
+#: views/view.grid.add.php:30
+#: views/view.grid.php:30
+msgid "Priority"
+msgstr ""
+
+#: Queueprio.class.php:888
+msgid "Priority Required"
+msgstr ""
+
+#: Queueprio.class.php:244
+msgid "Priority name cannot be empty!"
+msgstr ""
+
+#: Queueprio.class.php:845
+#: queueprio.i18n.php:4
+#: queueprio.i18n.php:10
+#: views/page.main.php:16
+msgid "Queue Priorities"
+msgstr ""
+
 #: assets/js/queueprio.js:11
 msgid "Queue Priorities name already exist"
-msgstr ""
-
-#: assets/js/queueprio.js:81
-msgid "Edit Priority"
-msgstr ""
-
-#: assets/js/queueprio.js:83
-msgid "Delete Priority"
-msgstr ""
-
-#: assets/js/queueprio.js:120
-msgid "Are you sure you wish to delete these Priorities?"
-msgstr ""
-
-#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
-msgid "Yes"
-msgstr ""
-
-#: assets/js/queueprio.js:121 assets/js/queueprio.js:184
-msgid "No"
-msgstr ""
-
-#: assets/js/queueprio.js:123
-msgid "Deleting..."
-msgstr ""
-
-#: assets/js/queueprio.js:144 views/view.grid.php:6
-msgid "Delete Priorities"
-msgstr ""
-
-#: assets/js/queueprio.js:155
-msgid "A command is already processing, please wait"
-msgstr ""
-
-#: assets/js/queueprio.js:183
-#, javascript-format
-msgid "Are you sure you wish to delete the Priority \"%s\"?"
-msgstr ""
-
-#: assets/js/queueprio.js:258
-msgid "Update Priority"
-msgstr ""
-
-#: assets/js/queueprio.js:259
-msgid "Define the settings to update the Priority"
-msgstr ""
-
-#: assets/js/queueprio.js:261 views/view.grid.add.php:245
-msgid "Create Priority"
-msgstr ""
-
-#: assets/js/queueprio.js:262 views/view.grid.add.php:209
-msgid "Define Settings for a new Priority"
 msgstr ""
 
 #: views/page.main.php:17
@@ -238,55 +209,65 @@ msgid ""
 "with this priority."
 msgstr ""
 
-#: views/page.main.php:17
-msgid "What is Queue Priorities?"
-msgstr ""
-
-#: views/rnav.php:7
-msgid "List Priorities"
-msgstr ""
-
-#: views/rnav.php:10
-msgid "Add Priority"
-msgstr ""
-
-#: views/view.form.php:44
-msgid "Add Queue Priority"
-msgstr ""
-
-#: views/view.form.php:44
+#: Queueprio.class.php:772
+#: Queueprio.class.php:796
 #, php-format
-msgid "Edit: %s (%s)"
+msgid "Queue Priority: %s"
+msgstr ""
+
+#: Queueprio.class.php:161
+msgid "Reset"
+msgstr ""
+
+#: Queueprio.class.php:338
+msgid "Some priorities could not be deleted!"
+msgstr ""
+
+#: Queueprio.class.php:166
+msgid "Submit"
+msgstr ""
+
+#: Queueprio.class.php:299
+#, php-format
+msgid "The '%s' option is not supported!"
+msgstr ""
+
+#: Queueprio.class.php:866
+#: views/view.form.php:101
+#: views/view.grid.add.php:38
+msgid "The Queue Priority to set 0 - 20"
+msgstr ""
+
+#: Queueprio.class.php:858
+#: views/view.grid.add.php:26
+msgid "The descriptive name of this Queue Priority instance."
 msgstr ""
 
 #: views/view.form.php:76
 msgid "The name of this Queue Priority instance."
 msgstr ""
 
-#: views/view.grid.add.php:215
-msgid "Loading..."
+#: Queueprio.class.php:252
+msgid "The priority with the specified ID could not be located!"
 msgstr ""
 
-#: views/view.grid.add.php:222
-msgid "Error: Data could not be loaded!"
+#: Queueprio.class.php:538
+#: Queueprio.class.php:582
+msgid "Undefined"
 msgstr ""
 
-#: views/view.grid.add.php:244
-msgid "Cancel"
+#: views/page.main.php:17
+msgid "What is Queue Priorities?"
 msgstr ""
 
-#: views/view.grid.php:3
-msgid "New Priority"
+#: Queueprio.class.php:248
+msgid "You cannot create a priority the same name as an existing priority!"
 msgstr ""
 
-#: views/view.grid.php:28
-msgid "ID"
+#: Queueprio.class.php:256
+msgid "You cannot rename a priority to the same name of an existing priority!"
 msgstr ""
 
-#: views/view.grid.php:32
-msgid "In Use"
-msgstr ""
-
-#: views/view.grid.php:33
-msgid "Actions"
+#: Queueprio.class.php:259
+msgid "You have not selected a destination!"
 msgstr ""

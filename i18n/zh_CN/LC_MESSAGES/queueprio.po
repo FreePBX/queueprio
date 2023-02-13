@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 09:04+0530\n"
+"POT-Creation-Date: 2023-02-13 04:02+0000\n"
 "PO-Revision-Date: 2009-01-31 22:50+0800\n"
 "Last-Translator: 周征晟 <zhougongjizhe@163.com>\n"
 "Language-Team: EdwardBadBoy <zhougongjizhe@163.com>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: views/grid.php:11
+#: views/view.grid.php:33
 msgid "Actions"
 msgstr ""
 
-#: views/bootnav.php:7 views/grid.php:5
+#: views/rnav.php:10
 msgid "Add Priority"
 msgstr ""
 
-#: views/form.php:25
+#: views/view.form.php:44
 msgid "Add Queue Priority"
 msgstr "添加队列优先级"
 
@@ -40,39 +40,153 @@ msgstr ""
 msgid "Applications"
 msgstr ""
 
-#: Queueprio.class.php:52
+#: views/view.grid.add.php:244
+msgid "Cancel"
+msgstr ""
+
+#: Queueprio.class.php:202
+#, php-format
+msgid "Command [%s] not valid!"
+msgstr ""
+
+#: Queueprio.class.php:333
+#, php-format
+msgid "Could not delete priority '%s'!"
+msgstr ""
+
+#: views/view.grid.add.php:245
+msgid "Create Priority"
+msgstr ""
+
+#: views/view.grid.add.php:209
+msgid "Define Settings for a new Priority"
+msgstr ""
+
+#: Queueprio.class.php:156
 msgid "Delete"
 msgstr "删除"
 
-#: views/form.php:44
-msgid "Description"
-msgstr "描述"
+#: views/view.grid.php:6
+msgid "Delete Priorities"
+msgstr ""
 
-#: views/form.php:92 views/form.php:104
+#: Queueprio.class.php:326
+msgid "Delete Sccessfully"
+msgstr ""
+
+#: Queueprio.class.php:871 Queueprio.class.php:872 views/view.form.php:114
+#: views/view.form.php:126 views/view.grid.add.php:42
+#: views/view.grid.add.php:45 views/view.grid.php:31
 msgid "Destination"
 msgstr "目的地"
 
-#: views/form.php:18
-msgid "Edit: "
-msgstr "编辑："
+#: Queueprio.class.php:891
+msgid "Destination Required"
+msgstr ""
 
-#: views/form.php:113
-msgid "Invalid description specified"
-msgstr "指定了无效的描述"
+#: views/view.form.php:44
+#, php-format
+msgid "Edit: %s (%s)"
+msgstr ""
 
-#: views/bootnav.php:5
+#: Queueprio.class.php:897
+msgid "Error Add Priority"
+msgstr ""
+
+#: Queueprio.class.php:281
+msgid "Error Creating Priority!"
+msgstr ""
+
+#: Queueprio.class.php:908
+msgid "Error Update Priority"
+msgstr ""
+
+#: Queueprio.class.php:294
+msgid "Error Updating Priority!"
+msgstr ""
+
+#: views/view.grid.add.php:222
+msgid "Error: Data could not be loaded!"
+msgstr ""
+
+#: views/view.grid.php:28
+msgid "ID"
+msgstr ""
+
+#: Queueprio.class.php:221 Queueprio.class.php:359
+#, php-format
+msgid "ID (%s) Not found!"
+msgstr ""
+
+#: Queueprio.class.php:846
+msgid "Import/Export Queue Priorities"
+msgstr ""
+
+#: views/view.grid.php:32
+msgid "In Use"
+msgstr ""
+
+#: Queueprio.class.php:309
+msgid "Invalid data received!"
+msgstr ""
+
+#: assets/js/queueprio.js:10
+msgid "Invalid name specified"
+msgstr ""
+
+#: views/rnav.php:7
 msgid "List Priorities"
 msgstr ""
 
-#: views/form.php:68 views/grid.php:10
+#: views/view.grid.add.php:215
+msgid "Loading..."
+msgstr ""
+
+#: Queueprio.class.php:214
+msgid "Missing ID!"
+msgstr ""
+
+#: Queueprio.class.php:857 views/rnav.php:23 views/view.form.php:64
+#: views/view.grid.add.php:19 views/view.grid.php:29
+msgid "Name"
+msgstr ""
+
+#: Queueprio.class.php:885
+msgid "Name Required"
+msgstr ""
+
+#: views/view.grid.php:3
+msgid "New Priority"
+msgstr ""
+
+#: Queueprio.class.php:141
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr ""
+
+#: Queueprio.class.php:865 views/view.form.php:89 views/view.grid.add.php:30
+#: views/view.grid.php:30
 msgid "Priority"
 msgstr "优先级"
 
-#: queueprio.i18n.php:4 queueprio.i18n.php:10
+#: Queueprio.class.php:888
+msgid "Priority Required"
+msgstr ""
+
+#: Queueprio.class.php:244
+msgid "Priority name cannot be empty!"
+msgstr ""
+
+#: Queueprio.class.php:845 queueprio.i18n.php:4 queueprio.i18n.php:10
+#: views/page.main.php:16
 msgid "Queue Priorities"
 msgstr "队列优先级"
 
-#: page.queueprio.php:4
+#: assets/js/queueprio.js:11
+msgid "Queue Priorities name already exist"
+msgstr ""
+
+#: views/page.main.php:17
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -81,42 +195,91 @@ msgid ""
 "set the destination to a queue, however that is not necessary. You might set "
 "the destination of a priority customer DID to an IVR that is used by other "
 "DIDs, for example, and any subsequent queue that is entered would be entered "
-"with this priority"
+"with this priority."
 msgstr ""
-"队列优先级允许你设置某个主叫在队列中的优先级。在默认情况下，主叫的优先级都是"
-"0。为某个主叫设置高一些的优先级将把此主叫放在队列中其他呼叫者的前面。此优先级"
-"会应用于该主叫被引导到的任何队列。一般情况下，你可以为队列设置一个目的地，但"
-"是这不是必须的。比如说，你可以把一个优先客户DID的目的地设置为一个别的DID使用"
-"的IVR，并且它在随后进入的任何队列都会具有此优先级"
 
-#: functions.inc.php:38 functions.inc.php:143
+#: Queueprio.class.php:772 Queueprio.class.php:796
 #, php-format
 msgid "Queue Priority: %s"
 msgstr "队列优先级：%s"
 
-#: page.queueprio.php:18
-msgid "Queue Priorties"
-msgstr ""
-
-#: views/form.php:114
-msgid "Queue Priorties description already exist"
-msgstr ""
-
-#: Queueprio.class.php:57
+#: Queueprio.class.php:161
 msgid "Reset"
 msgstr ""
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:338
+msgid "Some priorities could not be deleted!"
+msgstr ""
+
+#: Queueprio.class.php:166
 msgid "Submit"
 msgstr ""
 
-#: views/form.php:80
+#: Queueprio.class.php:299
+#, php-format
+msgid "The '%s' option is not supported!"
+msgstr ""
+
+#: Queueprio.class.php:866 views/view.form.php:101 views/view.grid.add.php:38
 msgid "The Queue Priority to set 0 - 20"
 msgstr ""
 
-#: views/form.php:56
+#: Queueprio.class.php:858 views/view.grid.add.php:26
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "为此队列优先级实例设置一个描述性的名字。"
+
+#: views/view.form.php:76
+msgid "The name of this Queue Priority instance."
+msgstr ""
+
+#: Queueprio.class.php:252
+msgid "The priority with the specified ID could not be located!"
+msgstr ""
+
+#: Queueprio.class.php:538 Queueprio.class.php:582
+msgid "Undefined"
+msgstr ""
+
+#: views/page.main.php:17
+msgid "What is Queue Priorities?"
+msgstr ""
+
+#: Queueprio.class.php:248
+msgid "You cannot create a priority the same name as an existing priority!"
+msgstr ""
+
+#: Queueprio.class.php:256
+msgid "You cannot rename a priority to the same name of an existing priority!"
+msgstr ""
+
+#: Queueprio.class.php:259
+msgid "You have not selected a destination!"
+msgstr ""
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Edit: "
+#~ msgstr "编辑："
+
+#~ msgid "Invalid description specified"
+#~ msgstr "指定了无效的描述"
+
+#~ msgid ""
+#~ "Queue Priority allows you to set a caller's priority in a queue. By "
+#~ "default, a caller's priority is set to 0. Setting a higher priority will "
+#~ "put the caller ahead of other callers already in a queue. The priority "
+#~ "will apply to any queue that this caller is eventually directed to. You "
+#~ "would typically set the destination to a queue, however that is not "
+#~ "necessary. You might set the destination of a priority customer DID to an "
+#~ "IVR that is used by other DIDs, for example, and any subsequent queue "
+#~ "that is entered would be entered with this priority"
+#~ msgstr ""
+#~ "队列优先级允许你设置某个主叫在队列中的优先级。在默认情况下，主叫的优先级都"
+#~ "是0。为某个主叫设置高一些的优先级将把此主叫放在队列中其他呼叫者的前面。此"
+#~ "优先级会应用于该主叫被引导到的任何队列。一般情况下，你可以为队列设置一个目"
+#~ "的地，但是这不是必须的。比如说，你可以把一个优先客户DID的目的地设置为一个"
+#~ "别的DID使用的IVR，并且它在随后进入的任何队列都会具有此优先级"
 
 #~ msgid "Add Queue Priority Instance"
 #~ msgstr "添加队列优先级实例"
