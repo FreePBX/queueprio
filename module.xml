@@ -23,8 +23,33 @@
 		*16.0.2* Packaging of ver 16.0.2
     *16.0.1* 16.0
 	</changelog>
+	<database>
+		<table name="queueprio">
+			<field name="queueprio_id" type="bigint" primarykey="true" autoincrement="true"/>
+			<field name="description" type="string" length="50"/>
+			<field name="queue_priority" type="integer" default="0"/>
+			<field name="dest" type="string" length="255"/>
+		</table>
+	</database>
+  <hooks>
+		<framework class="Destinations" namespace="FreePBX">
+			<method callingMethod="getModuleDestinations" class="Queueprio" namespace="FreePBX\modules">destinations</method>
+      <method callingMethod="getModuleCheckDestinations" class="Queueprio" namespace="FreePBX\modules">destinations_check</method>
+      <method callingMethod="getModuleDestinationInfo" class="Queueprio" namespace="FreePBX\modules">destinations_getdestinfo</method>
+      <method callingMethod="changeModuleDestination" class="Queueprio" namespace="FreePBX\modules">destinations_change</method>
+      <method callingMethod="identifyDestinations" class="Queueprio" namespace="FreePBX\modules">destinations_identif</method>
+		</framework>
+    <bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Queueprio" namespace="FreePBX\modules">bulkhandlerGetHeaders</method>
+			<method callingMethod="getTypes" class="Queueprio" namespace="FreePBX\modules">bulkhandlerGetTypes</method>
+			<method callingMethod="import" class="Queueprio" namespace="FreePBX\modules">bulkhandlerImport</method>
+			<method callingMethod="export" class="Queueprio" namespace="FreePBX\modules">bulkhandlerExport</method>
+		</bulkhandler>
+	</hooks>
   <depends>
     <version>16.0</version>
+    <module>framework ge 16.0.21.18</module>
+    <module>fax ge 16.0.7</module>
   </depends>
   <location>release/2.11/queueprio-2.11.0.0.tgz</location>
   <md5sum>72e836e63a0c82ca961900cbf445def2</md5sum>
