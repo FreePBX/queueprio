@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>16.0.2</version>
+  <version>17.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -20,15 +20,14 @@
     </queueprio>
   </popovers>
 	<changelog>
-		*16.0.2* Packaging of ver 16.0.2
-    *16.0.1* 16.0
+    		*17.0.1* 17.0
 	</changelog>
   <depends>
-    <version>16.0</version>
+    <version>17.0</version>
   </depends>
   <location>release/2.11/queueprio-2.11.0.0.tgz</location>
   <md5sum>72e836e63a0c82ca961900cbf445def2</md5sum>
   <supported>
-    <version>16.0</version>
+    <version>17.0</version>
   </supported>
 </module>
