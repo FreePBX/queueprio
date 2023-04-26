@@ -7,11 +7,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-19 09:04+0530\n"
-"PO-Revision-Date: 2016-12-11 06:03+0200\n"
-"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"POT-Creation-Date: 2023-02-13 04:02+0000\n"
+"PO-Revision-Date: 2022-09-22 20:04+0200\n"
+"Last-Translator: Javier Pastor <jpastor@cerebelum.net>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
 "queueprio/es_ES/>\n"
 "Language: es_ES\n"
@@ -19,17 +19,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.4\n"
+"X-Generator: Poedit 3.1.1\n"
 
-#: views/grid.php:11
+#: views/view.grid.php:33
 msgid "Actions"
 msgstr "Acciones"
 
-#: views/bootnav.php:7 views/grid.php:5
+#: views/rnav.php:10
 msgid "Add Priority"
 msgstr "Agregar Prioridad"
 
-#: views/form.php:25
+#: views/view.form.php:44
 msgid "Add Queue Priority"
 msgstr "Agregar Priorida Cola"
 
@@ -44,39 +44,153 @@ msgstr ""
 msgid "Applications"
 msgstr "Aplicaciones"
 
-#: Queueprio.class.php:52
+#: views/view.grid.add.php:244
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Queueprio.class.php:202
+#, php-format
+msgid "Command [%s] not valid!"
+msgstr "¡Comando [%s] no válido!"
+
+#: Queueprio.class.php:333
+#, php-format
+msgid "Could not delete priority '%s'!"
+msgstr "¡No se pudo eliminar la prioridad '%s'!"
+
+#: views/view.grid.add.php:245
+msgid "Create Priority"
+msgstr "Crear Prioridad"
+
+#: views/view.grid.add.php:209
+msgid "Define Settings for a new Priority"
+msgstr "Definir la configuración de una nueva Prioridad"
+
+#: Queueprio.class.php:156
 msgid "Delete"
 msgstr "Eliminar"
 
-#: views/form.php:44
-msgid "Description"
-msgstr "Descripción"
+#: views/view.grid.php:6
+msgid "Delete Priorities"
+msgstr "Eliminar Prioridades"
 
-#: views/form.php:92 views/form.php:104
+#: Queueprio.class.php:326
+msgid "Delete Sccessfully"
+msgstr "Eliminados Correctamente"
+
+#: Queueprio.class.php:871 Queueprio.class.php:872 views/view.form.php:114
+#: views/view.form.php:126 views/view.grid.add.php:42
+#: views/view.grid.add.php:45 views/view.grid.php:31
 msgid "Destination"
 msgstr "Destino"
 
-#: views/form.php:18
-msgid "Edit: "
-msgstr "Editar: "
+#: Queueprio.class.php:891
+msgid "Destination Required"
+msgstr "Destino Requerido"
 
-#: views/form.php:113
-msgid "Invalid description specified"
-msgstr "Descripción especificada inválida"
+#: views/view.form.php:44
+#, php-format
+msgid "Edit: %s (%s)"
+msgstr "Editar: %s (%s)"
 
-#: views/bootnav.php:5
+#: Queueprio.class.php:897
+msgid "Error Add Priority"
+msgstr "Error al añadir la Prioridad"
+
+#: Queueprio.class.php:281
+msgid "Error Creating Priority!"
+msgstr "¡Error al crear Prioridad!"
+
+#: Queueprio.class.php:908
+msgid "Error Update Priority"
+msgstr "Error al actualizar la Prioridad"
+
+#: Queueprio.class.php:294
+msgid "Error Updating Priority!"
+msgstr "¡Error al actualizar la Prioridad!"
+
+#: views/view.grid.add.php:222
+msgid "Error: Data could not be loaded!"
+msgstr "Error: ¡No se han podido cargar los datos!"
+
+#: views/view.grid.php:28
+msgid "ID"
+msgstr "ID"
+
+#: Queueprio.class.php:221 Queueprio.class.php:359
+#, php-format
+msgid "ID (%s) Not found!"
+msgstr "¡ID (%s) no se ha encontrado!"
+
+#: Queueprio.class.php:846
+msgid "Import/Export Queue Priorities"
+msgstr "Importación/Exportación de Prioridades de la Cola"
+
+#: views/view.grid.php:32
+msgid "In Use"
+msgstr "En Uso"
+
+#: Queueprio.class.php:309
+msgid "Invalid data received!"
+msgstr "Datos inválidos recibidos!"
+
+#: assets/js/queueprio.js:10
+msgid "Invalid name specified"
+msgstr "Nombre especificado no valido"
+
+#: views/rnav.php:7
 msgid "List Priorities"
-msgstr "Listar Prioridades"
+msgstr "Lista Prioridades"
 
-#: views/form.php:68 views/grid.php:10
+#: views/view.grid.add.php:215
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: Queueprio.class.php:214
+msgid "Missing ID!"
+msgstr "Falta el ID!"
+
+#: Queueprio.class.php:857 views/rnav.php:23 views/view.form.php:64
+#: views/view.grid.add.php:19 views/view.grid.php:29
+msgid "Name"
+msgstr "Nombre"
+
+#: Queueprio.class.php:885
+msgid "Name Required"
+msgstr "Nombre Requerido"
+
+#: views/view.grid.php:3
+msgid "New Priority"
+msgstr "Nueva Prioridad"
+
+#: Queueprio.class.php:141
+#, php-format
+msgid "Page Not Found (%s)!!!!"
+msgstr "¡¡¡¡Página no encontrada (%s)!!!!"
+
+#: Queueprio.class.php:865 views/view.form.php:89 views/view.grid.add.php:30
+#: views/view.grid.php:30
 msgid "Priority"
 msgstr "Prioridad"
 
-#: queueprio.i18n.php:4 queueprio.i18n.php:10
+#: Queueprio.class.php:888
+msgid "Priority Required"
+msgstr "Prioridad Requerida"
+
+#: Queueprio.class.php:244
+msgid "Priority name cannot be empty!"
+msgstr "¡El nombre de prioridad no puede estar vacío!"
+
+#: Queueprio.class.php:845 queueprio.i18n.php:4 queueprio.i18n.php:10
+#: views/page.main.php:16
 msgid "Queue Priorities"
 msgstr "Prioridades Cola"
 
-#: page.queueprio.php:4
+#: assets/js/queueprio.js:11
+msgid "Queue Priorities name already exist"
+msgstr "El nombre de las prioridades de la cola ya existe"
+
+#: views/page.main.php:17
 msgid ""
 "Queue Priority allows you to set a caller's priority in a queue. By default, "
 "a caller's priority is set to 0. Setting a higher priority will put the "
@@ -85,7 +199,7 @@ msgid ""
 "set the destination to a queue, however that is not necessary. You might set "
 "the destination of a priority customer DID to an IVR that is used by other "
 "DIDs, for example, and any subsequent queue that is entered would be entered "
-"with this priority"
+"with this priority."
 msgstr ""
 "Prioridad Cola le permite establecer la prioridad de la persona que llama en "
 "una cola. Por defecto, la prioridad del llamante se pone a 0. Establecer una "
@@ -95,36 +209,108 @@ msgstr ""
 "destino de una cola, sin embargo, no es necesario. Puede configurar el "
 "destino de un cliente DID prioritario a un IVR que es utilizado por otros "
 "DID, por ejemplo, y en cualquier cola posterior donde entre, seguirá con "
-"esta prioridad"
+"esta prioridad."
 
-#: functions.inc.php:38 functions.inc.php:143
+#: Queueprio.class.php:772 Queueprio.class.php:796
 #, php-format
 msgid "Queue Priority: %s"
 msgstr "Prioridad Cola: %s"
 
-#: page.queueprio.php:18
-msgid "Queue Priorties"
-msgstr "Prioridades de Cola"
-
-#: views/form.php:114
-msgid "Queue Priorties description already exist"
-msgstr ""
-
-#: Queueprio.class.php:57
+#: Queueprio.class.php:161
 msgid "Reset"
 msgstr "Reinicio"
 
-#: Queueprio.class.php:62
+#: Queueprio.class.php:338
+msgid "Some priorities could not be deleted!"
+msgstr "¡Algunas prioridades no se pudieron eliminar!"
+
+#: Queueprio.class.php:166
 msgid "Submit"
 msgstr "Enviar"
 
-#: views/form.php:80
+#: Queueprio.class.php:299
+#, php-format
+msgid "The '%s' option is not supported!"
+msgstr "¡La opción '%s' no es compatible!"
+
+#: Queueprio.class.php:866 views/view.form.php:101 views/view.grid.add.php:38
 msgid "The Queue Priority to set 0 - 20"
 msgstr "La Prioridad de Cola a establecer 0 - 20"
 
-#: views/form.php:56
+#: Queueprio.class.php:858 views/view.grid.add.php:26
 msgid "The descriptive name of this Queue Priority instance."
 msgstr "Un nombre descriptivo para esta Instancia Prioridad Cola."
+
+#: views/view.form.php:76
+msgid "The name of this Queue Priority instance."
+msgstr "El nombre de esta instancia de prioridad de cola."
+
+#: Queueprio.class.php:252
+msgid "The priority with the specified ID could not be located!"
+msgstr "¡No se pudo encontrar la prioridad con la identificación especificada!"
+
+#: Queueprio.class.php:538 Queueprio.class.php:582
+msgid "Undefined"
+msgstr "No Definido"
+
+#: views/page.main.php:17
+msgid "What is Queue Priorities?"
+msgstr "¿Qué es Prioridades de la Cola?"
+
+#: Queueprio.class.php:248
+msgid "You cannot create a priority the same name as an existing priority!"
+msgstr ""
+"¡No puede crear una prioridad con el mismo nombre que una prioridad "
+"existente!"
+
+#: Queueprio.class.php:256
+msgid "You cannot rename a priority to the same name of an existing priority!"
+msgstr ""
+"¡No puede cambiar el nombre de una prioridad al mismo nombre de una "
+"prioridad existente!"
+
+#: Queueprio.class.php:259
+msgid "You have not selected a destination!"
+msgstr "¡No has seleccionado un destino!"
+
+#~ msgid "Edit Priority"
+#~ msgstr "Editar Prioridad"
+
+#~ msgid "Delete Priority"
+#~ msgstr "Eliminar Prioridad"
+
+#~ msgid "Are you sure you wish to delete these Priorities?"
+#~ msgstr "¿Está seguro de que desea eliminar estas Prioridades?"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Deleting..."
+#~ msgstr "Eliminando..."
+
+#~ msgid "A command is already processing, please wait"
+#~ msgstr "Un comando ya se está procesando, por favor espere"
+
+#~ msgid "Are you sure you wish to delete the Priority \"%s\"?"
+#~ msgstr "¿Está seguro de que desea eliminar la prioridad \"%s\"?"
+
+#~ msgid "Update Priority"
+#~ msgstr "Actualizar Prioridad"
+
+#~ msgid "Define the settings to update the Priority"
+#~ msgstr "Definir la configuración para actualizar la Prioridad"
+
+#~ msgid "Queue Priorties"
+#~ msgstr "Prioridades de Cola"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Successful Removal"
+#~ msgstr "Eliminación con éxito"
 
 #~ msgid "Add Queue Priority Instance"
 #~ msgstr "Agregar Instancia Prioridad Cola"
