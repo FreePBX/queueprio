@@ -233,7 +233,7 @@ class Queueprio implements \BMO {
 				break;
 
 			case 'priority_update':
-				$dlg_mode 		= filter_input(INPUT_POST, 'dlg_mode', FILTER_SANITIZE_STRING, ['options' => array('default' => "")]);
+				$dlg_mode 		= filter_input(INPUT_POST, 'dlg_mode', FILTER_SANITIZE_FULL_SPECIAL_CHARS, ['options' => array('default' => "")]);
 				$fData 	  		= filter_input(INPUT_POST, 'form_data', FILTER_DEFAULT, FILTER_FORCE_ARRAY);
 				$priority_name  = preg_replace('/\s/i', '_', preg_replace('/\+/i', '_', trim($fData['priority_name'])));
 				$priority_id	= $fData['priority_id'];
@@ -348,8 +348,8 @@ class Queueprio implements \BMO {
 				break;
 
 			case 'priority_dialog':
-				$dlg_mode 	 = filter_input(INPUT_POST, 'dlg_mode', FILTER_SANITIZE_STRING, ['options' => array('default' => "")]);
-				$priority_id = filter_input(INPUT_POST, 'priority_id', FILTER_SANITIZE_STRING, ['options' => array('default' => "")]);
+				$dlg_mode 	 = filter_input(INPUT_POST, 'dlg_mode', FILTER_SANITIZE_FULL_SPECIAL_CHARS, ['options' => array('default' => "")]);
+				$priority_id = filter_input(INPUT_POST, 'priority_id', FILTER_SANITIZE_FULL_SPECIAL_CHARS, ['options' => array('default' => "")]);
 
 				if ($dlg_mode == "edit")
 				{
