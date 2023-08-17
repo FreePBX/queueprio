@@ -1,16 +1,9 @@
 <?php
-    switch ($_REQUEST['view'])
-    {
-		case 'form':
-            $content = $queueprio->showPage('form');
-        break;
-
-		case '':
-        case 'list':
-        default:
-            $content = $queueprio->showPage('grid');
-        break;
-    }
+	$view = $_REQUEST['view'] ?? '';
+    $content = match ($view) {
+    'form' => $queueprio->showPage('form'),
+    default => $queueprio->showPage('grid'),
+};
 ?>
 <div class="container-fluid">
 	<h1><?php echo _('Queue Priorities')?></h1>

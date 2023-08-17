@@ -3,48 +3,7 @@
 // $dPriority['default'] = $queueprio->getPriorityDefault();
 // $dPriority['data'] = $queueprio->getPriorityDefault();
 
-$form_data = array(
-	array(
-		'name' 	=> 'type',
-		'type' 	=> 'hidden',
-		'value' => '',
-	),
-	array(
-		'name' 	=> 'priority_id',
-		'type' 	=> 'hidden',
-		'value' => ! empty($dPriority['data']['id']) ? $dPriority['data']['id'] : $dPriority['default']['id'],
-	),
-	array(
-		'name' 	=> 'priority_name',
-		'title'	=> _('Name'),
-		'type' 	=> 'text',
-		'index'	=> true,
-		'opts' 	=> array(
-			'maxlength' => "50",
-			'value' => ! empty($dPriority['data']['name']) ? $dPriority['data']['id'] : $dPriority['default']['name'],
-		),
-		'help'	=> _('The descriptive name of this Queue Priority instance.'),
-	),
-	array(
-		'name' 	=> 'priority_priority',
-		'title'	=> _('Priority'),
-		'type' 	=> 'number',
-		'index'	=> true,
-		'opts' 	=> array(
-			'min' => "0",
-			'max' => "20",
-			'value' => ! empty($dPriority['data']['id']) ? $dPriority['data']['priority'] : $dPriority['default']['priority'],
-		),
-		'help'	=> _('The Queue Priority to set 0 - 20'),
-	),
-	array(
-		'name' 	=> 'goto0',
-		'title'	=> _('Destination'),
-		'type' 	=> 'raw',
-		'value' => drawselects('', 0, false, false),
-		'help'	=> _('Destination'),
-	),
-);
+$form_data = [['name' 	=> 'type', 'type' 	=> 'hidden', 'value' => ''], ['name' 	=> 'priority_id', 'type' 	=> 'hidden', 'value' => ! empty($dPriority['data']['id']) ? $dPriority['data']['id'] : $dPriority['default']['id']], ['name' 	=> 'priority_name', 'title'	=> _('Name'), 'type' 	=> 'text', 'index'	=> true, 'opts' 	=> ['maxlength' => "50", 'value' => ! empty($dPriority['data']['name']) ? $dPriority['data']['id'] : $dPriority['default']['name']], 'help'	=> _('The descriptive name of this Queue Priority instance.')], ['name' 	=> 'priority_priority', 'title'	=> _('Priority'), 'type' 	=> 'number', 'index'	=> true, 'opts' 	=> ['min' => "0", 'max' => "20", 'value' => ! empty($dPriority['data']['id']) ? $dPriority['data']['priority'] : $dPriority['default']['priority']], 'help'	=> _('The Queue Priority to set 0 - 20')], ['name' 	=> 'goto0', 'title'	=> _('Destination'), 'type' 	=> 'raw', 'value' => drawselects('', 0, false, false), 'help'	=> _('Destination')]];
 
 $element_container = '
 <div class="element-container $$__ELEMENT_CONTAINER_CLASS__$$">
@@ -71,13 +30,7 @@ $element_container = '
 </div>
 ';
 
-$type_input = array(
-	'text' 	 	=> '<input type="text" id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>',
-	'list' 	 	=> '<select id="$$__NAME__$$" class="form-control" name="$$__NAME__$$">$$__LINES__$$</select>',
-	'list_line'	=> '<option value="$$__VALUE__$$" $$__SELECTED__$$ $$__SELECTABLE__$$>$$__TEXT__$$</option>',
-	'number'	=> '<input type="number" id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>',
-	'textarea' 	=> '<textarea id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>$$__VALUE__$$</textarea>',	
-);
+$type_input = ['text' 	 	=> '<input type="text" id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>', 'list' 	 	=> '<select id="$$__NAME__$$" class="form-control" name="$$__NAME__$$">$$__LINES__$$</select>', 'list_line'	=> '<option value="$$__VALUE__$$" $$__SELECTED__$$ $$__SELECTABLE__$$>$$__TEXT__$$</option>', 'number'	=> '<input type="number" id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>', 'textarea' 	=> '<textarea id="$$__NAME__$$" class="form-control" name="$$__NAME__$$" $$__OPTIONS__$$>$$__VALUE__$$</textarea>'];
 
 $new_input_all = "";
 
@@ -169,7 +122,7 @@ foreach ($form_data as $index => $element)
 							foreach ($list_line as $l_key => $l_val)
 							{
 								if (in_array($l_key, $line['keys'])) {
-									$help_text_line = str_replace( sprintf('$$__%s__$$', strtoupper($l_key)), $l_val, $help_text_line);
+									$help_text_line = str_replace( sprintf('$$__%s__$$', strtoupper((string) $l_key)), $l_val, (string) $help_text_line);
 								}
 							}
 							$help_text .= $help_text_line;
@@ -190,7 +143,7 @@ foreach ($form_data as $index => $element)
 	}
 	
 	// Clean Up
-	foreach (array('TYPE_INPUT', 'OPTIONS', 'VALUE', 'HELP', 'LINES', 'ELEMENT_CONTAINER_CLASS') as $item)
+	foreach (['TYPE_INPUT', 'OPTIONS', 'VALUE', 'HELP', 'LINES', 'ELEMENT_CONTAINER_CLASS'] as $item)
 	{
 		$new_input = str_replace( sprintf('$$__%s__$$', $item), "", $new_input);
 	}

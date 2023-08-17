@@ -10,7 +10,8 @@ class Restore Extends Base\RestoreBase{
 	}
 
 	public function processLegacy($pdo, $data, $tables, $unknownTables){
-		$tableName [] = 'queueprio';
+		$tableName = [];
+  $tableName [] = 'queueprio';
 		$this->restoreLegacyDatabase($pdo, $tableName);
 		$this->restoreLegacyFeatureCodes($pdo);
 	}

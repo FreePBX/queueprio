@@ -56,7 +56,7 @@ if (! function_exists('debug_string_backtrace'))
 
 // TODO: There is no hook on the _redirect_standard_helper function in the view.functions.php file.
 function queueprio_getdest($exten) {
-	return array(\FreePBX::Queueprio()->getDest($exten));
+	return [\FreePBX::Queueprio()->getDest($exten)];
 }
 
 ?>

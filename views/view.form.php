@@ -4,7 +4,7 @@
     $data_priority['type'] = "new";
     if (isset($_REQUEST['extdisplay']) && ! empty($_REQUEST['extdisplay']))
     {
-        $data_priority['id'] = trim($_REQUEST['extdisplay']);
+        $data_priority['id'] = trim((string) $_REQUEST['extdisplay']);
     }
 
     if ($data_priority['id'] != "")
@@ -12,13 +12,7 @@
         $row = $queueprio->getPriority($data_priority['id']);
         if (! empty($row))
         {
-            $data_priority = array(
-                'type'      => 'edit',
-                'id'        => $row['id'],
-                'name'      => $row['name'],
-                'priority'  => $row['priority'],
-                'dest'      => $row['dest'],
-            );
+            $data_priority = ['type'      => 'edit', 'id'        => $row['id'], 'name'      => $row['name'], 'priority'  => $row['priority'], 'dest'      => $row['dest']];
             $usage_list = $queueprio->hookDestinationUsage($data_priority['id']);
             if (!empty($usage_list)) {
                 $usagehtml = '<div class="well well-info>"';
@@ -135,5 +129,5 @@
 </div>
 <script>
     // TODO: list of names to check if it exists, it would be nice to update to ajax and validate it in real time.
-    var qprionames = <?php print json_encode($queueprio->getallqprio($data_priority['id'])); ?>;
+    var qprionames = <?php print json_encode($queueprio->getallqprio($data_priority['id']), JSON_THROW_ON_ERROR); ?>;
 </script>
