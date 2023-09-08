@@ -1,5 +1,6 @@
 <?php
 namespace FreePBX\modules;
+#[\AllowDynamicProperties]
 class Queueprio implements \BMO {
 
 	final public const ASTERISK_SECTION = 'app-queueprio';
