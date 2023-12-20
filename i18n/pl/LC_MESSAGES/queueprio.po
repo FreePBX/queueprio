@@ -1,0 +1,122 @@
+# This file is part of FreePBX.
+#
+# For licensing information, please see the file named LICENSE located in the module directory
+#
+# FreePBX language template for queueprio
+# Copyright (C) 2008-2020 Sangoma Technologies, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-19 10:31+0000\n"
+"PO-Revision-Date: 2023-11-18 14:01+0000\n"
+"Last-Translator: Szymon Wysokinski <szymon.wysokinski@sqspolska.pl>\n"
+"Language-Team: Polish <http://weblate.freepbx.org/projects/freepbx/queueprio/"
+"pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.0.1\n"
+
+#: views/grid.php:11
+msgid "Actions"
+msgstr "Działania"
+
+#: views/bootnav.php:7
+#: views/grid.php:5
+msgid "Add Priority"
+msgstr ""
+
+#: views/form.php:25
+msgid "Add Queue Priority"
+msgstr ""
+
+#: queueprio.i18n.php:8
+msgid ""
+"Adds the ability to set a callers priority higher before entering a queue"
+msgstr ""
+
+#: queueprio.i18n.php:6
+msgid "Applications"
+msgstr ""
+
+#: Queueprio.class.php:54
+msgid "Delete"
+msgstr ""
+
+#: views/form.php:44
+msgid "Description"
+msgstr ""
+
+#: views/form.php:92
+#: views/form.php:104
+msgid "Destination"
+msgstr ""
+
+#: views/form.php:18
+msgid "Edit: "
+msgstr ""
+
+#: views/form.php:113
+msgid "Invalid description specified"
+msgstr ""
+
+#: views/bootnav.php:5
+msgid "List Priorities"
+msgstr ""
+
+#: views/form.php:68
+#: views/grid.php:10
+msgid "Priority"
+msgstr ""
+
+#: queueprio.i18n.php:4
+#: queueprio.i18n.php:10
+msgid "Queue Priorities"
+msgstr ""
+
+#: page.queueprio.php:4
+msgid ""
+"Queue Priority allows you to set a caller's priority in a queue. By default, "
+"a caller's priority is set to 0. Setting a higher priority will put the "
+"caller ahead of other callers already in a queue. The priority will apply to "
+"any queue that this caller is eventually directed to. You would typically "
+"set the destination to a queue, however that is not necessary. You might set "
+"the destination of a priority customer DID to an IVR that is used by other "
+"DIDs, for example, and any subsequent queue that is entered would be entered "
+"with this priority"
+msgstr ""
+
+#: functions.inc.php:38
+#: functions.inc.php:143
+#, php-format
+msgid "Queue Priority: %s"
+msgstr ""
+
+#: page.queueprio.php:18
+msgid "Queue Priorties"
+msgstr ""
+
+#: views/form.php:114
+msgid "Queue Priorties description already exist"
+msgstr ""
+
+#: Queueprio.class.php:59
+msgid "Reset"
+msgstr ""
+
+#: Queueprio.class.php:64
+msgid "Submit"
+msgstr ""
+
+#: views/form.php:80
+msgid "The Queue Priority to set 0 - 20"
+msgstr ""
+
+#: views/form.php:56
+msgid "The descriptive name of this Queue Priority instance."
+msgstr ""
