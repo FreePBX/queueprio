@@ -22,6 +22,14 @@
 	<changelog>
     		*17.0.1* 17.0
 	</changelog>
+  <database>
+	<table name="queueprio">
+		<field name="queueprio_id" type="integer" primarykey="true" autoincrement="true"/>
+		<field name="queue_priority" type="string" length="50" notnull="false"/>
+		<field name="description" type="string" length="50" notnull="false"/>
+		<field name="dest" type="string" length="255" notnull="false"/>
+	</table>
+  </database>
   <depends>
     <version>17.0</version>
   </depends>
