@@ -331,7 +331,7 @@ class Queueprio implements \BMO {
 		$dbh = $this->db;
 		$sql = sprintf("SELECT description FROM %s %s ORDER BY description", $this->table_name, $id ? 'WHERE queueprio_id != :id' : '');
 		$stmt = $dbh->prepare($sql);
-		$stmt->execute([":id" => $id]);
+		if($id) $stmt->execute([":id" => $id]); else $stmt->execute();
 		$results = $stmt->fetchAll(\PDO::FETCH_ASSOC);
 		if(!$results) {
 			return [];
