@@ -31,6 +31,21 @@
 		<field name="dest" type="string" length="255" notnull="false"/>
 	</table>
   </database>
+   <hooks>
+		<framework class="Destinations" namespace="FreePBX">
+			<method callingMethod="getModuleDestinations" class="Queueprio" namespace="FreePBX\modules">destinations</method>
+      <method callingMethod="getModuleCheckDestinations" class="Queueprio" namespace="FreePBX\modules">destinations_check</method>
+      <method callingMethod="getModuleDestinationInfo" class="Queueprio" namespace="FreePBX\modules">destinations_getdestinfo</method>
+      <method callingMethod="changeModuleDestination" class="Queueprio" namespace="FreePBX\modules">destinations_change</method>
+      <method callingMethod="identifyDestinations" class="Queueprio" namespace="FreePBX\modules">destinations_identif</method>
+		</framework>
+    <bulkhandler class="Bulkhandler" namespace="FreePBX\modules">
+			<method callingMethod="getHeaders" class="Queueprio" namespace="FreePBX\modules">bulkhandlerGetHeaders</method>
+			<method callingMethod="getTypes" class="Queueprio" namespace="FreePBX\modules">bulkhandlerGetTypes</method>
+			<method callingMethod="import" class="Queueprio" namespace="FreePBX\modules">bulkhandlerImport</method>
+			<method callingMethod="export" class="Queueprio" namespace="FreePBX\modules">bulkhandlerExport</method>
+		</bulkhandler>
+	</hooks>
   <depends>
     <version>17.0</version>
   </depends>
