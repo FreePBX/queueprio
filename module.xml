@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>17.0.1.3</version>
+  <version>17.0.1.4</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -10,7 +10,7 @@
   <description>
 		Adds the ability to set a callers priority higher before entering a queue
 	</description>
-  <more-info>https://wiki.freepbx.org/display/FPG/Queue+Priorities+Module</more-info>
+  <more-info>https://sangomakb.atlassian.net/wiki/spaces/PG/pages/24641693/PBX+GUI+-+Queue+Priorities+Module</more-info>
   <menuitems>
     <queueprio needsenginedb="yes">Queue Priorities</queueprio>
   </menuitems>
@@ -20,7 +20,7 @@
     </queueprio>
   </popovers>
 	<changelog>
-    		*17.0.1.3* 17.0
+    		*17.0.1.4* 17.0
     		*17.0.1* 17.0
 	</changelog>
 	<database>
