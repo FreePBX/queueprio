@@ -162,7 +162,7 @@ window.priorityActionsEvents = {
 		processing = true;
 		
 		var $this = this;
-		var type  = $(this).data("type");
+		var type  = $(e.currentTarget).data("type");
 		var id 	  = row.id;
 		var name  = row.name;
 
