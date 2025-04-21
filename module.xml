@@ -10,7 +10,7 @@
   <description>
 		Adds the ability to set a callers priority higher before entering a queue
 	</description>
-  <more-info>https://wiki.freepbx.org/display/FPG/Queue+Priorities+Module</more-info>
+  <more-info>https://sangomakb.atlassian.net/wiki/spaces/PG/pages/24641693/PBX+GUI+-+Queue+Priorities+Module</more-info>
   <menuitems>
     <queueprio needsenginedb="yes">Queue Priorities</queueprio>
   </menuitems>
