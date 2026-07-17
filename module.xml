@@ -2,7 +2,7 @@
   <rawname>queueprio</rawname>
   <repo>extended</repo>
   <name>Queue Priorities</name>
-  <version>17.0.1.4</version>
+  <version>18.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>GPLv3+</license>
 	<licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
@@ -20,8 +20,7 @@
     </queueprio>
   </popovers>
 	<changelog>
-    		*17.0.1.4* 17.0
-    		*17.0.1* 17.0
+		*18.0.1* initial release
 	</changelog>
 	<database>
 		<table name="queueprio">
@@ -47,11 +46,11 @@
 		</bulkhandler>
 	</hooks>
   <depends>
-    <version>17.0</version>
+    <version>18.0</version>
   </depends>
   <location>release/2.11/queueprio-2.11.0.0.tgz</location>
   <md5sum>72e836e63a0c82ca961900cbf445def2</md5sum>
   <supported>
-    <version>17.0</version>
+    <version>18.0</version>
   </supported>
 </module>
